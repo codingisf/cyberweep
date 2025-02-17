@@ -7,12 +7,12 @@ const testimonials = [
   {
     name: "Vishnu Prasath",
     role: "Computer Science Student",
-    text: "This course was exceptionally well-structured, covering both fundamental and advanced topics with a strong practical focus.",
+    text: "This course was exceptionally well-structured, covering both fundamental and advanced topics with a strong practical focus. The mentor demonstrated deep expertise, providing clear explanations and real-world applications that enhanced my understanding. Hands-on labs, live demonstrations, and case studies made complex concepts easier to grasp. The course not only strengthened my technical skills but also emphasized ethical responsibility in cybersecurity practices. I highly recommend this course to anyone looking to advance their skills in ethical hacking and security.",
   },
   {
     name: "Agalya K.",
     role: "Cyber Security Student",
-    text: "I sincerely appreciate the effort and dedication you put into mentoring. Your patience, encouragement, and real-world insights have helped me develop a deeper understanding and confidence in my skills.",
+    text: "I sincerely appreciate the effort and dedication you put into mentoring.Your patience,encouragement,and real -world insights have helped me develop a deeper understanding and confidence in my skills.your guidence has not only improved my knowledge but also inspired me to keep learning and growing.Thank you for your unwavering support and dedication.",
   },
   {
     name: "Vincent Durai M.",
@@ -63,7 +63,7 @@ function Homepage() {
           style={{ backgroundImage: "url('/img-1.jpg')" }}
         >
           <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-          <div className="flex items-center h-full mx-auto">
+          <div className="flex items-center flex-col-reverse lg:flex-row h-full mx-auto ">
             <div className="relative z-10 flex flex-col items-start px-2 justify-center h-full text-center text-white w-[60%]">
               <h1 className="text-2xl md:text-3xl font-bold select-none">
                 Secure Your Future with Cutting-Edge Solutions
@@ -92,7 +92,7 @@ function Homepage() {
               <img
                 src="/img.jpg"
                 alt="cyber-security-solutions web-development full-stack"
-                className="w-full h-full object-cover bg-slate-300"
+                className="w-full h-full object-cover bg-slate-300 "
               />
             </div>
           </div>
