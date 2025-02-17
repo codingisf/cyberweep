@@ -12,7 +12,7 @@ const testimonials = [
   {
     name: "Agalya K.",
     role: "Cyber Security Student",
-    text: "I sincerely appreciate the effort and dedication you put into mentoring.Your patience,encouragement,and real -world insights have helped me develop a deeper understanding and confidence in my skills.your guidence has not only improved my knowledge but also inspired me to keep learning and growing.Thank you for your unwavering support and dedication.",
+    text: "I sincerely appreciate the effort and dedication you put into mentoring.Your patience,encouragement,and real -world insights have helped me develop a deeper understanding and confidence in my skills.your guidence has not only improved my knowledge but also inspired me to keep learning and growing.Thank you for your unwavering support and dedication.The instructor’s expertise and personalized approach made complex topics more digestible. I now feel confident about my skills in ethical hacking and ready for internships and future job opportunities!",
   },
   {
     name: "Vincent Durai M.",
