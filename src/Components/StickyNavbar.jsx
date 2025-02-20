@@ -20,7 +20,7 @@ function StickyNavbar() {
   const navList = (
     <ul className="mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       {["Home", "Blog", "Service", "About", "Contact"].map((item, index) => (
-        <Typography key={index} as="li" variant="small" className="p-1 text-black">
+        <Typography key={index} as="li" variant="small" className="p-1 text-white">
           <Link to={`/${item.toLowerCase()}`} className="flex items-center" onClick={() => {
             if (window.innerWidth <= 960) {
               setOpenNav(!openNav);
@@ -34,10 +34,10 @@ function StickyNavbar() {
   );
 
   return (
-    <Navbar className="fixed top-3 left-1/2 transform -translate-x-1/2 z-[1000] bg-[#fff] my-3 px-5 py-3 text-center w-[90%] rounded shadow-lg">
+    <Navbar className="fixed top-3 left-1/2 transform -translate-x-1/2 z-[1000] bg-transparent  my-3 px-5 py-3 text-center w-[90%] rounded shadow-lg">
       <div className="flex items-center justify-between text-blue-gray-900 py-auto">
         {/* Logo */}
-        <Typography as="a" href="#" className="mr-4 cursor-pointer py-1.5 font-medium text-black">
+        <Typography as="a" href="#" className="mr-4 cursor-pointer py-1.5 font-medium text-white">
           Cyberweep
         </Typography>
 
@@ -52,12 +52,12 @@ function StickyNavbar() {
         {/* Mobile Menu Icon */}
         <IconButton
           variant="text"
-          className="ml-auto h-6 w-6 text-black hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+          className="ml-auto h-6 w-6 text-white hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
           ripple={false}
           onClick={() => setOpenNav(!openNav)}
         >
           {openNav ? (
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" className="h-6 w-6 text-black " viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" className="h-6 w-6 text-white " viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
             </svg>
           ) : (
@@ -71,7 +71,7 @@ function StickyNavbar() {
       {/* Mobile Navigation */}
       <Collapse open={openNav}>
         <div className="flex flex-col items-center gap-2">{navList}</div>
-        <Button fullWidth variant="text" size="sm" className="bg-violet-600 px-4 py-2">
+        <Button fullWidth variant="text" size="sm" className="bg-violet-600 px-4 py-2 text-white">
           Free Consultation
         </Button>
       </Collapse>
