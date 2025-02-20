@@ -64,7 +64,7 @@ function Homepage() {
         >
           <div className="absolute inset-0 bg-black bg-opacity-50"></div>
           <div className="flex items-center flex-col-reverse lg:flex-row h-full mx-auto ">
-            <div className="relative z-10 flex flex-col items-start px-2 justify-center h-full text-center text-white w-[60%]">
+            <div className="relative z-10 flex flex-col items-start px-2 justify-center h-full text-center text-white w-[60%] mx-10">
               <h1 className="text-2xl md:text-3xl font-bold select-none">
                 Secure Your Future with Cutting-Edge Solutions
               </h1>
@@ -282,8 +282,8 @@ function Homepage() {
           <section className="py-14 h-full flex items-center justify-center">
             <div className="container mx-auto px-4 w-[95%]">
               <div className="flex justify-center items-center">
-                <Carousel className="w-full" autoplay={true} loop={true}>
-                  {/* Mobile: Show 1 per slide */}
+                <Carousel className="w-full py-5" autoplay={true} loop={true}>
+                  
                   {testimonials.map((t, i) => (
                     <div key={i} className="flex justify-center">
                       <TestimonialCard {...t} />
@@ -298,13 +298,13 @@ function Homepage() {
         {/* section - 6 */}
         <section className="relative h-[40vh] px-10 mt-10">
           <div className="container min-h-52 bg-violet-800 mx-auto rounded-2xl p-10 flex flex-col justify-evenly">
-            <div className="flex lg:flex-row flex-row justify-evenly w-full">
-              <div className="left w-[70%] my-auto">
+            <div className="flex lg:flex-row flex-col justify-evenly w-full">
+              <div className="left lg:w-[70%] my-auto">
                 <h1 className="text-xl lg:text-3xl font-semibold text-white">
                   Ready To dive into our top-notch Projects ?
                 </h1>
               </div>
-              <div className="flex justify-center w-[20%] my-auto">
+              <div className="flex justify-center w-[20%] my-auto mx-auto mt-2">
                 <button className="w-22 px-6 py-3 rounded-xl bg-violet-900 text-white hover:rounded-none transition-all">
                   Explore projects
                 </button>
