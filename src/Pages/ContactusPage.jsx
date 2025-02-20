@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { lazy, useState } from "react";
 import Footer from "../Components/Footer";
 import { PhoneIcon, EnvelopeIcon, MapIcon } from "@heroicons/react/24/solid";
 function ContactusPage() {
@@ -27,6 +27,16 @@ function ContactusPage() {
 
   return (
     <>
+      <header
+        className="lg:h-[60vh] h-[50vh] flex justify-center items-center bg-gray-300"
+        style={{ backgroundImage: "url('/img-1.jpg')" }}
+        loading={lazy}
+      >
+        <h1 className="text-[2rem] lg:text-[3.5rem] text-violet-500 font-semibold">
+          Contact Us
+        </h1>
+      </header>
+
       <div className="bg-black relative w-full min-h-[100vh]  flex flex-col justify-center p-8">
         <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 gap-8 mt-10 relative">
           {/* Left Side */}
@@ -206,19 +216,19 @@ function ContactusPage() {
               </div>
             </div>
             <div className="mt-5 mx-auto">
-              <div className="flex items-center space-x-2 mt-8 mx-auto space-y-2 ">
-                <PhoneIcon className="h-6 w-6 text-gray-500" />
+              <div className="flex items-center space-y-2 mt-8 mx-auto">
+                <PhoneIcon className="h-6 w-6 my-2 text-blue-300" />
                 <a
                   href="tel:+91 8220852483"
                   className="text-white hover:underline"
                 >
-                  +91 8220852483 
+                  +91 8220852483
                 </a>
               </div>
 
               {/* Mail Icon with Anchor Tag */}
-              <div className="flex items-center space-x-2">
-                <EnvelopeIcon className="h-6 w-6 text-gray-500" />
+              <div className="flex items-center space-y-2 w-full ">
+                <EnvelopeIcon className="h-6 w-6 my-2 text-white" />
                 <a
                   href="mailto:muzamil112004@gmail.com"
                   className="text-white hover:underline"
@@ -226,12 +236,13 @@ function ContactusPage() {
                   muzamil112004@gmail.com
                 </a>
               </div>
-
-              {/* Location Icon */}
-              <div className="flex items-center space-x-2 text-white">
-                <MapIcon className="h-6 w-6 text-gray-500" />
-                <span>Dhanalakshmi Srinivasan Engineering college Perambalur 621212</span>
-              </div>
+            </div>
+            {/* Location Icon */}
+            <div className="flex items-center text-white ">
+              <MapIcon className="h-6 w-6 my-2 text-white" />
+              <span>
+                Dhanalakshmi Srinivasan Engineering college Perambalur.
+              </span>
             </div>
           </div>
         </div>
