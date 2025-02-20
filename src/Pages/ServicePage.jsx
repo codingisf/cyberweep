@@ -56,7 +56,7 @@ const ServiceCard = ({ cardTitle, cardImage, cardBody, index, onOpen }) => (
         <img
           src={cardImage}
           alt="cyber-security-solutions web-development full-stack"
-          className="mb-4 w-[80%]"
+          className="mb-4 w-[80%] mx-auto"
         />
       )}
       <h3 className="text-xl font-semibold text-white mb-4">{cardTitle}</h3>
