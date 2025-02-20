@@ -35,17 +35,17 @@ const ServiceModelDetails = [
   {
     ModelTitle: "🚀 Cybersecurity",
     ModelBody:
-      "Our cybersecurity training programs provide hands-on, real-world learning experiences to equip individuals and businesses with essential security skills. From beginner to advanced penetration testing, you'll gain expertise in ethical hacking, vulnerability scanning, and exploitation techniques.",
+      "Our cybersecurity training programs provide hands-on, real-world learning experiences to equip individuals and businesses with essential security skills. From beginner to advanced penetration testing, you'll gain expertise in ethical hacking, vulnerability scanning, and exploitation techniques. Our secure coding courses focus on the OWASP Top 10 vulnerabilities, ensuring developers build applications with security-first principles. If you're preparing for industry-recognized certifications, our CEH, OSCP, and advanced security certification prep programs offer structured, exam-focused training. Additionally, our corporate training workshops help businesses strengthen their security posture, defend against cyber threats, and implement best practices through customized, industry-relevant training sessions.",
   },
   {
     ModelTitle: "🕸️ Advanced Web Development",
     ModelBody:
-      "We build secure, scalable, and high-performance websites tailored to modern digital needs. Our custom web development solutions leverage the latest technologies like React, Angular, and Vue.js, ensuring a seamless user experience across all devices.",
+      "We build secure, scalable, and high-performance websites tailored to modern digital needs. Our custom web development solutions leverage the latest technologies like React, Angular, and Vue.js, ensuring a seamless user experience across all devices. We specialize in secure API development, providing encrypted and well-optimized API systems for smooth data communication and integration. To keep your digital presence protected and efficient, we offer ongoing maintenance and security audits, including performance optimization, vulnerability assessments, and regular updates. Whether you need an e-commerce platform, business website, or enterprise solution, we create future-ready web applications that drive success.",
   },
   {
     ModelTitle: "🖌️ UX/UI Design",
     ModelBody:
-      "Exceptional digital experiences start with intuitive design. Our UI/UX design services focus on user-centered design principles, ensuring every interaction is seamless and engaging.",
+      "Exceptional digital experiences start with intuitive design. Our UI/UX design services focus on user-centered design principles, ensuring every interaction is seamless and engaging. We create wireframes and interactive prototypes to refine ideas before development, guaranteeing a flawless user journey. Our approach prioritizes accessibility and usability, making digital platforms inclusive and easy to navigate for all users. With expertise in brand identity and visual design, we help businesses build a strong digital presence with visually appealing, cohesive, and modern aesthetics. By blending creativity, functionality, and security, we craft designs that not only look stunning but also enhance user engagement and satisfaction.",
   },
 ];
 
