@@ -5,23 +5,27 @@ import {
   DialogBody,
   DialogFooter,
 } from "@material-tailwind/react";
+const websitedevelopment = "/websitedevelopment.svg";
+const uximage = "/uximage.svg";
+const cybersecurity = "/cybersecurity.svg";
+
 
 const ServiceCardDetails = [
   {
     cardTitle: "🚀 Cybersecurity",
-    cardImage: "",
+    cardImage: cybersecurity,
     cardBody:
       "Stay ahead of cyber threats with our industry-leading cybersecurity training. We offer hands-on, real-world simulations designed by experts to equip you with the latest tools and techniques.",
   },
   {
     cardTitle: "🕸️ Advanced Web Development",
-    cardImage: "",
+    cardImage: websitedevelopment,
     cardBody:
       "Build your dream website and mobile apps with latest frameworks and technologies. Build responsive, user-friendly websites and applications, ensuring scalability and performance.",
   },
   {
     cardTitle: "🖌️ UX/UI Design",
-    cardImage: "",
+    cardImage: uximage,
     cardBody:
       "Our UI/UX Design services focus on crafting intuitive, engaging, and accessible digital experiences. We specialize in wireframing and prototyping to refine ideas before development, ensuring a seamless user journey.",
   },
@@ -52,7 +56,7 @@ const ServiceCard = ({ cardTitle, cardImage, cardBody, index, onOpen }) => (
         <img
           src={cardImage}
           alt="cyber-security-solutions web-development full-stack"
-          className="mb-4"
+          className="mb-4 w-[80%]"
         />
       )}
       <h3 className="text-xl font-semibold text-white mb-4">{cardTitle}</h3>
