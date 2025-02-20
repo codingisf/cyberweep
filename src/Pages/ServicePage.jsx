@@ -110,7 +110,7 @@ function ServicePage() {
             </h2>
           </DialogHeader>
           <DialogBody>
-            <p className="text-black">{t.ModelBody}</p>
+            <p className="text-black text-justify">{t.ModelBody}</p>
           </DialogBody>
           <DialogFooter className="text-red-400 hover:underline">
             <button onClick={() => setOpenIndex(null)}>
