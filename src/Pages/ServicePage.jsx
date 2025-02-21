@@ -5,10 +5,18 @@ import {
   DialogBody,
   DialogFooter,
 } from "@material-tailwind/react";
+
+import {
+  Card,
+  CardHeader,
+  CardBody,
+  Typography,
+  Avatar,
+} from "@material-tailwind/react";
+
 const websitedevelopment = "/websitedevelopment.svg";
 const uximage = "/uximage.svg";
 const cybersecurity = "/cybersecurity.svg";
-
 
 const ServiceCardDetails = [
   {
@@ -76,50 +84,143 @@ function ServicePage() {
   };
 
   return (
-    <section className="bg-black min-h-[100vh]">
-      <header
-        className="lg:h-[60vh] h-[50vh] flex justify-center items-center bg-gray-300"
-        style={{ backgroundImage: "url('/img-1.jpg')" }}
-      >
-        <h1 className="text-[2rem] lg:text-[3.5rem] text-violet-500 font-semibold">
-          Our Service
-        </h1>
-      </header>
+    <>
+      <section className="bg-black min-h-[100vh]">
+        <section>
+          <header
+            className="lg:h-[60vh] h-[50vh] flex justify-center items-center bg-gray-300"
+            style={{ backgroundImage: "url('/img-1.jpg')" }}
+          >
+            <h1 className="text-[2rem] lg:text-[3.5rem] text-violet-500 font-semibold">
+              Our Service
+            </h1>
+          </header>
 
-      <section className="py-14 h-full flex items-center justify-center">
-        <div className="container mx-auto px-4 w-[95%]">
-          <div className="flex flex-col lg:flex-row gap-10 justify-center items-center">
-            {ServiceCardDetails.map((t, i) => (
-              <ServiceCard key={i} {...t} index={i} onOpen={handleOpen} />
-            ))}
-          </div>
-        </div>
+          <section className="py-14 h-full flex items-center justify-center">
+            <div className="container mx-auto px-4 w-[95%]">
+              <div className="flex flex-col lg:flex-row gap-10 justify-center items-center">
+                {ServiceCardDetails.map((t, i) => (
+                  <ServiceCard key={i} {...t} index={i} onOpen={handleOpen} />
+                ))}
+              </div>
+            </div>
+          </section>
+
+          {ServiceModelDetails.map((t, i) => (
+            <Dialog
+              open={openIndex === i}
+              handler={() => setOpenIndex(null)}
+              size="md"
+              key={i}
+            >
+              <DialogHeader>
+                <h2 className="text-2xl font-semibold text-violet-500">
+                  {t.ModelTitle}
+                </h2>
+              </DialogHeader>
+              <DialogBody>
+                <p className="text-black text-justify">{t.ModelBody}</p>
+              </DialogBody>
+              <DialogFooter className="text-red-400 hover:underline">
+                <button onClick={() => setOpenIndex(null)}>Close</button>
+              </DialogFooter>
+            </Dialog>
+          ))}
+        </section>
+
+        <section className="px-10">
+          <h1 className="py-5 px-auto text-center lg:text-3xl text-xl bg-violet-800 text-white font-bold">
+           Our Case Study About <span className="text-blue-500">UX/UI Design</span>
+          </h1>
+
+
+          <section className="py-10 w-full flex lg:flex-row flex-col items-center justify-center gap-y-5">
+
+          <Card
+            shadow={false}
+            className="relative grid h-[40rem] mx-auto w-full max-w-[28rem] items-end justify-center overflow-hidden text-center"
+          >
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="absolute inset-0 m-0 h-full w-full rounded-none bg-[url('casestudy1.jpg')] bg-cover bg-center"
+            >
+              <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50" />
+            </CardHeader>
+            <CardBody className="relative py-14 px-6 md:px-12">
+              <Typography
+                variant="h2"
+                color="white"
+                className="mb-6 font-medium leading-[1.5]"
+              >
+                How we design and code open-source projects?
+              </Typography>
+              <Typography variant="h5" className="mb-4 text-gray-400">
+              Mohemed Sheik
+              </Typography>
+              <Avatar
+                size="xl"
+                variant="circular"
+                alt="tania andrew"
+                className="border-2 border-white"
+                src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
+              />
+            </CardBody>
+          </Card>
+          <Card
+            shadow={false}
+            className="relative grid h-[40rem] mx-auto w-full max-w-[28rem] items-end justify-center overflow-hidden text-center"
+          >
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="absolute inset-0 m-0 h-full w-full rounded-none bg-[url('casestudy2.jpg')] bg-cover bg-center"
+            >
+              <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50" />
+            </CardHeader>
+            <CardBody className="relative py-14 px-6 md:px-12">
+              <Typography
+                variant="h2"
+                color="white"
+                className="mb-6 font-medium leading-[1.5]"
+              >
+                How we design and code open-source projects?
+              </Typography>
+              <Typography variant="h5" className="mb-4 text-gray-400">
+                Mohemed Sheik
+              </Typography>
+              <Avatar
+                size="xl"
+                variant="circular"
+                alt="tania andrew"
+                className="border-2 border-white"
+                src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
+              />
+            </CardBody>
+          </Card>
+          </section>
+        </section>
+
+
+        <section className="min-h-[100vh]">
+        <h1 className="py-5 px-auto text-center lg:text-3xl text-xl bg-violet-800 text-white font-bold">
+           Our Training
+          </h1>
+          <section className="h-[70%] grid grid-cols-1 lg:grid-cols-3 lg:grid-rows-2 gap-4 mt-5 mx-10 ">
+  <img src="/img1.jpg" alt="" className="lg:col-span-1 lg:row-span-2 w-full h-full object-cover rounded-md"/>
+  <img src="/img2.jpg" alt="" className="w-full h-full object-cover rounded-md"/>
+  <img src="/img3.jpg" alt="" className="w-full h-full object-cover rounded-md"/>
+  <img src="/img4.jpg" alt="" className="w-full h-full object-cover rounded-md"/>
+  <img src="/img5.jpg" alt="" className="w-full h-full object-cover rounded-md"/>
+</section>
+
+
+
+        </section>
       </section>
-
-      {ServiceModelDetails.map((t, i) => (
-        <Dialog
-          open={openIndex === i}
-          handler={() => setOpenIndex(null)}
-          size="md"
-          key={i}
-          
-        >
-          <DialogHeader>
-            <h2 className="text-2xl font-semibold text-violet-500">
-              {t.ModelTitle}
-            </h2>
-          </DialogHeader>
-          <DialogBody>
-            <p className="text-black text-justify">{t.ModelBody}</p>
-          </DialogBody>
-          <DialogFooter className="text-red-400 hover:underline">
-            <button onClick={() => setOpenIndex(null)}>
-              Close
-            </button>
-          </DialogFooter>
-        </Dialog>
-      ))}
-    </section>
+    </>
   );
 }
 
