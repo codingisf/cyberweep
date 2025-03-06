@@ -1,6 +1,6 @@
 import React from "react";
 
-function blog1() {
+function Blog1() {
   return (
     <section className="bg-black min-h-[100vh] text-white py-10">
       <h1 className="text-4xl text-center font-bold py-32">Cyberweeb Blogs</h1>
@@ -137,5 +137,5 @@ function blog1() {
   );
 }
 
-export default blog1;
+export default Blog1;
 
