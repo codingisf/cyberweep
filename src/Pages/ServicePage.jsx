@@ -165,7 +165,7 @@ function ServicePage() {
         How we design and code open-source projects?
       </Typography>
       <Typography variant="h5" className="mb-4 text-gray-400">
-        Mohemed Sheik
+        Mohamed Sheik
       </Typography>
       <Avatar
         size="xl"
@@ -206,7 +206,7 @@ function ServicePage() {
         How we design and code open-source projects?
       </Typography>
       <Typography variant="h5" className="mb-4 text-gray-400">
-        Mohemed Sheik
+        Mohamed Sheik
       </Typography>
       <Avatar
         size="xl"
