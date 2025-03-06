@@ -17,6 +17,9 @@ import {
 const websitedevelopment = "/websitedevelopment.svg";
 const uximage = "/uximage.svg";
 const cybersecurity = "/cybersecurity.svg";
+const casestudy1 = "/casestudy1.jpg";
+const casestudy2 = "/casestudy2.jpg";
+
 
 import {Footer} from '../Components/Footer'
 
@@ -149,12 +152,13 @@ function ServicePage() {
     className="relative grid h-[40rem] mx-auto w-full max-w-[28rem] items-end justify-center overflow-hidden text-center"
   >
     <CardHeader
-      floated={false}
-      shadow={false}
-      color="transparent"
-     className="absolute inset-0 m-0 h-full w-full rounded-none"
-       style={{ backgroundImage: "url('/casestudy1.jpg')", backgroundSize: "cover", backgroundPosition: "center" }}
-    >
+  floated={false}
+  shadow={false}
+  color="transparent"
+  className="absolute inset-0 m-0 h-full w-full rounded-none bg-cover bg-center"
+  style={{ backgroundImage: `url(${casestudy1})` }}
+>
+
       <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50" />
     </CardHeader>
     <CardBody className="relative py-14 px-6 md:px-12">
@@ -190,12 +194,12 @@ function ServicePage() {
     shadow={false}
     className="relative grid h-[40rem] mx-auto w-full max-w-[28rem] items-end justify-center overflow-hidden text-center"
   >
-<CardHeader
+  <CardHeader
   floated={false}
   shadow={false}
   color="transparent"
-  className="absolute inset-0 m-0 h-full w-full rounded-none"
-  style={{ backgroundImage: "url('/casestudy2.jpg')", backgroundSize: "cover", backgroundPosition: "center" }}
+  className="absolute inset-0 m-0 h-full w-full rounded-none bg-cover bg-center"
+  style={{ backgroundImage: `url(${casestudy2})` }}
 >
 
       <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50" />
