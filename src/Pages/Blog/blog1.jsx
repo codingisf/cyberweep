@@ -4,7 +4,7 @@ function blog1() {
   return (
     <section className="bg-black min-h-[100vh] text-white py-10">
       <h1 className="text-4xl text-center font-bold py-32">Cyberweeb Blogs</h1>
-      <section className="w-[60%] mx-auto h-full">
+      <section className="lg:w-[60%] w-[80%] mx-auto h-full">
         <h1 className="text-2xl text-center font-bold">
           Top 4 Cybersecurity Threats in 2024 – And How to Stop Them
         </h1>
