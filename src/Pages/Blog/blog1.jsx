@@ -6,7 +6,7 @@ function blog1() {
       <h1 className="text-4xl text-center font-bold py-32">Cyberweeb Blogs</h1>
       <section className="w-[60%] mx-auto h-full">
         <h1 className="text-2xl text-center font-bold">
-          Top 5 Cybersecurity Threats in 2024 – And How to Stop Them
+          Top 4 Cybersecurity Threats in 2024 – And How to Stop Them
         </h1>
         <p className="text-xl font-bold my-5">Introduction</p>
         <p>
@@ -17,6 +17,7 @@ function blog1() {
           cybersecurity threats of the year and equip you with battle-tested
           strategies to defend your organization.
         </p>
+        <hr className="w-[100%] mx-auto my-20"/>
         <p className="text-xl font-bold my-5">
           Threat 1: AI-Powered Phishing & Deepfakes
         </p>
@@ -42,6 +43,7 @@ function blog1() {
           “Always verify unusual requests via a secondary channel (e.g., a phone
           call). If it’s urgent, it’s worth double-checking.”
         </p>
+        <hr className="w-[100%] mx-auto my-20"/>
         <p className="text-xl font-bold my-5 mt-5">Threat 2: Ransomware 2.0</p>
         <p className="text-xl font-bold my-5">Problem :</p>
         <p>
@@ -71,6 +73,7 @@ function blog1() {
           operations from backups within 6 hours. Their secret? Quarterly backup
           drills.
         </p>
+        <hr className="w-[100%] mx-auto my-20"/>
 
         <p className="text-xl font-bold my-5">
           Threat 3: Supply Chain Attacks
@@ -98,8 +101,9 @@ function blog1() {
           “Assume every third-party tool is a potential entry point. Monitor
           them like you’d monitor your own network.”
         </p>
+        <hr className="w-[100%] mx-auto my-20"/>
 
-        <p className="text-xl font-bold my-5 mt-5">Threat 5: IoT Botnets</p>
+        <p className="text-xl font-bold my-5 mt-5">Threat 4: IoT Botnets</p>
         <p className="text-xl font-bold my-5">Problem :</p>
         <p>
           Zero-day vulnerabilities like CVE-2024-1234 (a critical flaw in Apache
@@ -138,4 +142,3 @@ function blog1() {
 }
 
 export default blog1;
-
