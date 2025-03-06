@@ -6,6 +6,8 @@ import Blog from './Pages/BlogPage';
 import About from "./Pages/AboutPage"; // Import other pages as needed
 import Contact from "./Pages/ContactusPage"; // Import other pages as needed
 import Service from "./Pages/ServicePage"; // Import other pages as needed
+import Blog1 from "./Pages/Blog/Blog1"; // Import other pages as needed
+import Blog2 from "./Pages/Blog/Blog2"; // Import other pages as needed
 
 function App() {
 
@@ -20,6 +22,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/service" element={<Service />} />
+        <Route path="/Blog1" element={<Blog1 />} />
+        <Route path="/Blog2" element={<Blog2 />} />
       </Routes>
       
     </Router>
