@@ -1,10 +1,28 @@
-
-import React from 'react'
+import React from "react";
 
 function BlogPage() {
   return (
-    <div>BlogPage</div>
-  )
+    <section className="bg-black min-h-[100vh] text-white ">
+      <h1 className="text-4xl text-center font-bold py-32">Cyberweeb Blogs</h1>
+      <section className="w-[60%] mx-auto h-full">
+        <a className="" href="/Blog1">
+        <h1 className="text-2xl text-center font-bold">
+          Top 5 Cybersecurity Threats in 2024 – And How to Stop Them
+        </h1>
+        <p className="text-xl font-bold my-5">Introduction</p>
+        <p>
+          The digital world is a battlefield, and 2024’s cyber threats are more
+          sophisticated than ever. As businesses embrace AI, IoT, and cloud
+          technologies, attackers are exploiting these advancements to launch
+          devastating campaigns. In this blog, we’ll dissect the top 5
+          cybersecurity threats of the year and equip you with battle-tested
+          strategies to defend your organization.
+        </p>
+        </a>
+        <hr className="w-[100%] mx-auto my-20"/>
+      </section>
+    </section>
+  );
 }
 
-export default BlogPage
+export default BlogPage;
