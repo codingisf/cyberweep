@@ -843,6 +843,11 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.my-20 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
@@ -1261,6 +1266,10 @@ video {
 
 .w-9 {
   width: 2.25rem;
+}
+
+.w-\[100\%\] {
+  width: 100%;
 }
 
 .w-\[110px\] {
@@ -2461,14 +2470,6 @@ video {
   --tw-bg-opacity: 0.8;
 }
 
-.bg-\[url\(\'casestudy1\.jpg\'\)\] {
-  background-image: url('casestudy1.jpg');
-}
-
-.bg-\[url\(\'casestudy2\.jpg\'\)\] {
-  background-image: url('casestudy2.jpg');
-}
-
 .bg-gradient-to-l {
   background-image: linear-gradient(to left, var(--tw-gradient-stops));
 }
@@ -2948,6 +2949,11 @@ video {
   padding-bottom: 2rem;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .\!pr-7 {
   padding-right: 1.75rem !important;
 }
@@ -2978,6 +2984,10 @@ video {
 
 .pt-0\.5 {
   padding-top: 0.125rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .pt-3 {
