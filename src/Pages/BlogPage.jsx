@@ -25,7 +25,7 @@ function BlogPage() {
 
 
 
-      <section className="w-[60%] mx-auto h-full">
+      <section className="lg:w-[60%] w-[80%] mx-auto h-full">
         <a className="" href="/Blog2">
         <h1 className="text-2xl text-center font-bold">
         Why Secure Coding is Non-Negotiable for Modern Apps
