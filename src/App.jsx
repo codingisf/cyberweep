@@ -6,7 +6,7 @@ import Blog from './Pages/BlogPage';
 import About from "./Pages/AboutPage"; // Import other pages as needed
 import Contact from "./Pages/ContactusPage"; // Import other pages as needed
 import Service from "./Pages/ServicePage"; // Import other pages as needed
-import Blog1 from "./Pages/Blog/Blog1"; // Import other pages as needed
+import Blog1 from "./Pages/Blog/blog1"; // Import other pages as needed
 import Blog2 from "./Pages/Blog/Blog2"; // Import other pages as needed
 
 function App() {
