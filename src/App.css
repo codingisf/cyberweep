@@ -1329,6 +1329,14 @@ video {
   width: 100vw;
 }
 
+.w-\[\] {
+  width: ;
+}
+
+.w-\[90\] {
+  width: 90;
+}
+
 .min-w-\[100vw\] {
   min-width: 100vw;
 }
