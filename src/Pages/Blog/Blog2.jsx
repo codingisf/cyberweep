@@ -4,7 +4,7 @@ function Blog2() {
   return (
     <section className="bg-black min-h-[100vh] text-white ">
         <h1 className="text-4xl text-center font-bold py-32">Cyberweeb Blogs</h1>
-        <section className="w-[60%] mx-auto h-full">
+        <section className="lg:w-[60%] w-[80%] mx-auto h-full">
         
         <h1 className="text-2xl text-center font-bold">
         Why Secure Coding is Non-Negotiable for Modern Apps
