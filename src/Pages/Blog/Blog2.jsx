@@ -8,7 +8,7 @@ function Blog2() {
         <h1 className="text-2xl text-center font-bold">
           Why Secure Coding is Non-Negotiable for Modern Apps
         </h1>
-        <p className="text-xl font-bold my-5">Introduction</p>
+        <p className="text-2xl font-bold my-5">Introduction</p>
         <p>
           Insecure code isn’t just a bug—it’s a business risk. With 60% of data
           breaches linked to software vulnerabilities (Verizon DBIR, 2024),
