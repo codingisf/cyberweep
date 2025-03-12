@@ -9,6 +9,7 @@ import Service from "./Pages/ServicePage"; // Import other pages as needed
 import Blog1 from "./Pages/Blog/blog1"; // Import other pages as needed
 import Blog2 from "./Pages/Blog/Blog2"; // Import other pages as needed
 import Blog3 from "./Pages/Blog/blog3"; // Import other pages as needed
+import Blog4 from "./Pages/Blog/blog4"; // Import other pages as needed
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="/Blog1" element={<Blog1 />} />
         <Route path="/Blog2" element={<Blog2 />} />
         <Route path="/Blog3" element={<Blog3 />} />
+        <Route path="/Blog4" element={<Blog4 />} />
       </Routes>
       
     </Router>
