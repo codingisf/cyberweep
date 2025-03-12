@@ -4,7 +4,7 @@ function BlogPage() {
   return (
     <section className="bg-black min-h-[100vh] text-white ">
       <h1 className="text-4xl text-center font-bold py-32">Cyberweeb Blogs</h1>
-      <section className="lg:w-[60%] w-[80%] mx-auto h-full">
+      <section className="lg:w-[60%] w-[90%] mx-auto h-full">
         <a className="" href="/Blog1">
         <h1 className="text-2xl text-center font-bold">
           Top 4 Cybersecurity Threats in 2024 – And How to Stop Them
@@ -25,7 +25,7 @@ function BlogPage() {
 
 
 
-      <section className="lg:w-[60%] w-[80%] mx-auto h-full">
+      <section className="w-[60%] mx-auto h-full">
         <a className="" href="/Blog2">
         <h1 className="text-2xl text-center font-bold">
         Why Secure Coding is Non-Negotiable for Modern Apps
@@ -37,7 +37,21 @@ The High Cost of Cutting Corners
 
         </p>
         </a>
-        <hr className="w-[100%] mx-auto mt-20"/>
+        <hr className="w-[100%] mx-auto my-10"/>
+      </section>
+
+
+      <section className="w-[60%] mx-auto h-full">
+        <a className="" href="/Blog3">
+        <h1 className="text-2xl text-center font-bold">
+        Case Study: How We Thwarted a $2M Ransomware Attack
+        </h1>
+        <p className="text-xl font-bold my-5">Introduction</p>
+        <p>
+        Ransomware is a ticking time bomb. In this case study, we’ll walk you through how we neutralized a $2M attack on a logistics company—and how you can replicate their success.
+        </p>
+        </a>
+        <hr className="w-[100%] mx-auto py-10 mt-10"/>
       </section>
     </section>
   );
