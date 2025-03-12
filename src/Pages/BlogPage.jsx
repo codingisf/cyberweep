@@ -25,7 +25,7 @@ function BlogPage() {
 
 
 
-      <section className="w-[60%] mx-auto h-full">
+      <section className="lg:w-[60%] w-[90%] mx-auto h-full">
         <a className="" href="/Blog2">
         <h1 className="text-2xl text-center font-bold">
         Why Secure Coding is Non-Negotiable for Modern Apps
@@ -41,7 +41,7 @@ The High Cost of Cutting Corners
       </section>
 
 
-      <section className="w-[60%] mx-auto h-full">
+      <section className="lg:w-[60%] w-[90%] mx-auto h-full">
         <a className="" href="/Blog3">
         <h1 className="text-2xl text-center font-bold">
         Case Study: How We Thwarted a $2M Ransomware Attack
