@@ -4,11 +4,11 @@ function blog1() {
   return (
     <section className="bg-black min-h-[100vh] text-white py-10">
       <h1 className="text-4xl text-center font-bold py-32">Cyberweeb Blogs</h1>
-      <section className="lg:w-[60%] w-[80%] mx-auto h-full">
+      <section className="lg:w-[60%] w-[90%] mx-auto h-full">
         <h1 className="text-2xl text-center font-bold">
           Top 4 Cybersecurity Threats in 2024 – And How to Stop Them
         </h1>
-        <p className="text-xl font-bold my-5">Introduction</p>
+        <p className="text-2xl font-bold my-5">Introduction</p>
         <p>
           The digital world is a battlefield, and 2024’s cyber threats are more
           sophisticated than ever. As businesses embrace AI, IoT, and cloud
