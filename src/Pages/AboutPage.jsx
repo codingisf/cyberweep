@@ -15,7 +15,7 @@ const aboutdetails = [
   },
   {
     name: "Balaji",
-    role: "Full-Stack Developer | API Architect",
+    role: "COO | Full-Stack Developer | API Architect",
     about:
       "Balaji is the wizard behind our code. Specializing in React, Node.js, and Python, he builds apps that are as secure as they are scalable. From crafting bulletproof APIs to optimizing database performance, he’s obsessed with clean, efficient code. Fun fact: Balaji once automated his entire morning routine—from brewing coffee to checking server logs—using a custom Python script. Talk about work-life balance!",
     Img: "",
