@@ -3,6 +3,10 @@ import { Carousel } from "@material-tailwind/react";
 import { StarIcon } from "@heroicons/react/24/solid";
 
 const muzamil = "/muzamil.jpg";
+const explore_project = "/explore-project.png";
+const bulb = "/bulb.png";
+const group = "/Group.png";
+const money = "/money.png";
 
 const testimonials = [
   {
@@ -155,76 +159,81 @@ function Homepage() {
 
           {/* card Container */}
           <section className="py-14 h-full flex items-center justify-center">
-            <div className="container mx-auto px-4 w-[95%]">
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                {/* Card - 1 */}
-                <div className="bg-white/10 shadow-xl rounded-lg overflow-hidden hover:shadow-2xl transform hover:-translate-y-3 transition duration-300 backdrop-blur-lg border border-white/20">
-                  <div className="p-6">
-                    <img
-                      src=""
-                      alt="cyber-security-solutions web-development full-stack"
-                      className="mb-4"
-                    />
-                    <h3 className="text-xl font-semibold text-white mb-4">
-                      🚀 Cutting-Edge Cybersecurity Training
-                    </h3>
-                    <p className="text-white/80">
-                      Stay ahead of cyber threats with our industry-leading
-                      cybersecurity training. We offer hands-on, real-world
-                      simulations designed by experts to equip you with the
-                      latest tools and techniques. Whether you're a beginner or
-                      a seasoned professional, our structured learning paths
-                      will help you gain in-demand skills and certifications.
-                    </p>
-                  </div>
-                </div>
+  <div className="container mx-auto px-4 w-[95%]">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      {/* Card - 1 */}
+      <div className="bg-white/10 relative shadow-xl rounded-lg hover:shadow-2xl transform hover:-translate-y-3 transition duration-300 backdrop-blur-lg border border-white/20">
+        <div className="p-6">
+          {/* Circular Icon */}
+          <div className="mb-4 absolute -top-5 -right-5 rounded-full w-20 h-20 bg-black outline outline-4 outline-violet-800 z-10">
+            <img
+              src={bulb}
+              alt="cyber-security-solutions web-development full-stack"
+              className="w-full h-full object-cover rounded-full p-4"
+            />
+          </div>
+          <h3 className="text-xl font-semibold text-white mb-4">
+            🚀 Cutting-Edge Cybersecurity Training
+          </h3>
+          <p className="text-white/80">
+            Stay ahead of cyber threats with our industry-leading cybersecurity training. 
+            We offer hands-on, real-world simulations designed by experts to equip you with 
+            the latest tools and techniques.
+          </p>
+        </div>
+      </div>
 
-                {/* Card - 2 (with Top-right slope) */}
-                <div className="relative bg-white/10 shadow-xl rounded-lg overflow-hidden hover:shadow-2xl transform hover:-translate-y-3 transition duration-300 backdrop-blur-lg border border-white/20">
-                  <div className="p-6 relative">
-                    <img
-                      src=""
-                      alt="cyber-security-solutions web-development full-stack"
-                      className="mb-4"
-                    />
-                    <h3 className="text-xl font-semibold text-white mb-4">
-                      🎯 Expert-Led Web Development & UI/UX Design
-                    </h3>
-                    <p className="text-white/80">
-                      Learn from the best in web development and UI/UX design.
-                      Our courses focus on practical, project-based learning to
-                      help you master front-end and back-end technologies. With
-                      guidance from industry experts, you’ll build visually
-                      stunning and high-performing websites that stand out in
-                      the digital world.
-                    </p>
-                  </div>
-                </div>
+      {/* Card - 2 */}
+      <div className="relative bg-white/10 shadow-xl rounded-lg hover:shadow-2xl transform hover:-translate-y-3 transition duration-300 backdrop-blur-lg border border-white/20">
+        <div className="p-6">
+          {/* Circular Icon */}
+          <div className="mb-4 absolute -top-5 -right-5 rounded-full w-20 h-20 bg-black outline outline-4 outline-violet-800 z-10">
+            <img
+              src={group}
+              alt="cyber-security-solutions web-development full-stack"
+              className="w-full h-full object-cover rounded-full p-4"
+            />
+          </div>
+          <h3 className="text-xl font-semibold text-white mb-4">
+            🎯 Expert-Led Web Development & UI/UX Design
+          </h3>
+          <p className="text-white/80">
+            Learn from the best in web development and UI/UX design. Our courses focus on 
+            practical, project-based learning to help you master front-end and back-end technologies.
+          </p>
+        </div>
+      </div>
 
-                {/* Card - 3 */}
-                <div className="bg-white/10 shadow-xl rounded-lg overflow-hidden hover:shadow-2xl transform hover:-translate-y-3 transition duration-300 backdrop-blur-lg border border-white/20">
-                  <div className="p-6">
-                    <img
-                      src=""
-                      alt="cyber-security-solutions web-development full-stack"
-                      className="mb-4"
-                    />
-                    <h3 className="text-xl font-semibold text-white mb-4">
-                      🔥 Career-Focused Learning & Growth
-                    </h3>
-                    <p className="text-white/80">
-                      We don’t just train you—we prepare you for success! Our
-                      programs are designed with a career-oriented approach,
-                      offering mentorship, real-world projects, and placement
-                      support. Whether you're looking to upskill or launch a new
-                      career, we provide the right resources to help you
-                      achieve your goals.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
+      {/* Card - 3 */}
+      <div className="bg-white/10 relative shadow-xl rounded-lg hover:shadow-2xl transform hover:-translate-y-3 transition duration-300 backdrop-blur-lg border border-white/20">
+        <div className="p-6">
+          {/* Circular Icon */}
+          <div className="mb-4 absolute -top-5 -right-5 rounded-full w-20 h-20 bg-black outline outline-4 outline-violet-800 z-10">
+            <img
+              src={money}
+              alt="cyber-security-solutions web-development full-stack"
+              className="w-full h-full object-cover rounded-full p-4"
+            />
+          </div>
+          <h3 className="text-xl font-semibold text-white mb-4">
+            🔥 Career-Focused Learning & Growth
+          </h3>
+          <p className="text-white/80">
+            We don’t just train you—we prepare you for success! Our programs are designed 
+            with a career-oriented approach, offering mentorship, real-world projects, 
+            and placement support.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
         </section>
 
         {/* section - 4 */}
@@ -233,7 +242,7 @@ function Homepage() {
             <div className="relative lg:h-[57%] bg-violet-900 flex lg:flex-row rounded-lg flex-col justify-between mx-auto items-center w-full p-0 ">
               <section className="">
                 <h1 className="absolute left-10 text-lg lg:-mt-7 mt-5">
-                  Meet Our <span className="text-blue-500">Mentor</span>
+                  Meet Our <span className="text-blue-500">Instructor</span>
                 </h1>
                 <div className="lg:max-w-[35%] lg:max-h-[35%] max-w-[50%] max-h-[50%] mx-auto  relative lg:mt-0 mt-20">
                   <img
@@ -245,10 +254,10 @@ function Homepage() {
                   <div className="absolute -top-4 -right-4 w-16 h-16 bg-white rounded-full outline outline-8 outline-violet-900"></div>
                 </div>
               </section>
-              <section className="lg:w-[60%] w-[85%] mt-20 lg:mt-0">
-                <h1 className="mb-6">
+              <section className="lg:w-[60%] w-[85%] mt-20 lg:mt-0 ">
+                <h1 className="mb-6 text-2xl">
                   Hi,
-                  <span className="font-semibold text-lg">
+                  <span className="font-semibold ">
                     I'm Mohammed Muzamil,
                   </span>
                   your instructor.
@@ -267,7 +276,7 @@ function Homepage() {
                   and build a secure digital future!
                 </p>
 
-                <h1 className="text-black pb-5 rounded hover:cursor-pointer text-2xl underline w-full mt-5">
+                <h1 className="text-blue-600 pb-5 rounded hover:cursor-pointer text-2xl underline w-full mt-5">
                   Founder & CEO of Cyberweep
                 </h1>
               </section>
@@ -305,19 +314,21 @@ function Homepage() {
 
         {/* section - 6 */}
         <section className="relative h-[40vh] px-10 mt-10">
-          <div className="container min-h-52 bg-violet-800 mx-auto rounded-2xl p-10 flex flex-col justify-evenly">
+          <div className="min-h-52 bg-violet-800 mx-auto rounded-[3rem] outline outline-8 outline-gray-800 p-10 flex flex-col justify-evenly">
             <div className="flex lg:flex-row flex-col justify-evenly w-full">
               <div className="left lg:w-[70%] my-auto">
-                <h1 className="text-xl lg:text-3xl font-semibold text-white">
+                <h1 className="text-xl lg:text-4xl font-semibold text-white">
                   Ready To dive into our top-notch Projects ?
                 </h1>
               </div>
-              <div className="flex justify-center w-[20%] my-auto mx-auto mt-2">
-                <button className="w-22 px-6 py-3 rounded-xl bg-violet-900 text-white hover:rounded-none transition-all">
-                  Explore projects
-                </button>
+              <div className="flex justify-center w-[20%] my-auto mx-auto mt-2 gap-5">
+                <img src={explore_project} alt="" className="w-24 h-24" />
               </div>
             </div>
+            <div className="mx-auto">
+                <button className="max-w-22 px-6 py-3 rounded-xl bg-violet-900 text-white hover:rounded-none transition-all">
+                  Explore projects
+                </button></div>
           </div>
         </section>
 
