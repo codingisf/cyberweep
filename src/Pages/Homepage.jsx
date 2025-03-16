@@ -2,6 +2,7 @@ import Footer from "../Components/Footer";
 import { Carousel } from "@material-tailwind/react";
 import { StarIcon } from "@heroicons/react/24/solid";
 
+const muzamil = "/muzamil.jpg";
 
 const testimonials = [
   {
@@ -43,12 +44,11 @@ const TestimonialCard = ({ name, role, text }) => (
     </h3>
     <p className="text-white">{text}</p>
     <div className="flex mt-1">
-    <StarIcon className="w-6 h-6 text-yellow-500" />
-    <StarIcon className="w-6 h-6 text-yellow-500" />
-    <StarIcon className="w-6 h-6 text-yellow-500" />
-    <StarIcon className="w-6 h-6 text-yellow-500" />
-    <StarIcon className="w-6 h-6 text-yellow-500" />
-    
+      <StarIcon className="w-6 h-6 text-yellow-500" />
+      <StarIcon className="w-6 h-6 text-yellow-500" />
+      <StarIcon className="w-6 h-6 text-yellow-500" />
+      <StarIcon className="w-6 h-6 text-yellow-500" />
+      <StarIcon className="w-6 h-6 text-yellow-500" />
     </div>
   </div>
 );
@@ -140,7 +140,6 @@ function Homepage() {
                 Infotech is here to help you navigate the future of technology
                 with confidence.
               </p>
-              <button>Free Consultation</button>
             </div>
           </section>
         </section>
@@ -230,13 +229,23 @@ function Homepage() {
 
         {/* section - 4 */}
         <section className="relative lg:h-[88dvh] bg-cover bg-center">
-          <div className="container flex justify-evenly items-center h-full px-10 mx-auto ">
-            <div className="relative lg:h-[50%] bg-violet-900 flex lg:flex-row rounded-lg lg:px-10  flex-col justify-between mx-auto items-center w-full">
-              <h1 className="absolute left-10 top-5 text-lg">
-                Meet Our <span className="text-blue-500">Mentor</span>
-              </h1>
-              <section></section>
-              <section className="w-[60%] mt-20 lg:mt-0">
+          <div className="container flex justify-evenly items-center h-full lg:px-10 px-5 mx-auto my-5 ">
+            <div className="relative lg:h-[57%] bg-violet-900 flex lg:flex-row rounded-lg flex-col justify-between mx-auto items-center w-full p-0 ">
+              <section className="">
+                <h1 className="absolute left-10 text-lg lg:-mt-7 mt-5">
+                  Meet Our <span className="text-blue-500">Mentor</span>
+                </h1>
+                <div className="lg:max-w-[35%] lg:max-h-[35%] max-w-[50%] max-h-[50%] mx-auto  relative lg:mt-0 mt-20">
+                  <img
+                    src={muzamil}
+                    alt=""
+                    srcset=""
+                    className="overflow-hidden rounded-lg"
+                  />
+                  <div className="absolute -top-4 -right-4 w-16 h-16 bg-white rounded-full outline outline-8 outline-violet-900"></div>
+                </div>
+              </section>
+              <section className="lg:w-[60%] w-[85%] mt-20 lg:mt-0">
                 <h1 className="mb-6">
                   Hi,
                   <span className="font-semibold text-lg">
@@ -283,7 +292,6 @@ function Homepage() {
             <div className="container mx-auto px-4 w-[95%]">
               <div className="flex justify-center items-center">
                 <Carousel className="w-full py-5" autoplay={true} loop={true}>
-                  
                   {testimonials.map((t, i) => (
                     <div key={i} className="flex justify-center">
                       <TestimonialCard {...t} />
