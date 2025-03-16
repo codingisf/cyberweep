@@ -2,22 +2,23 @@ import React, { lazy } from "react";
 import Footer from "../Components/Footer";
 import { Carousel } from "@material-tailwind/react";
 
+const muzamil = "/muzamil.jpg";
+const shek = "/shek.jpg";
+
 const aboutdetails = [
   {
     name: "Mohammed Muzamil",
     role: "Founder & CEO | Cybersecurity Expert",
     about:
       "As the founder and CEO of Cyberweek, I’ve always been driven by a passion for technology and a vision for a secure digital future. With 4 years of experience in cybersecurity, networking, Linux, and prompt engineering, I’ve built a career on solving complex problems and creating innovative solutions.My journey began with a deep curiosity for how systems work—from securing networks to optimizing Linux servers and leveraging AI-driven prompt engineering to streamline workflows..",
-    TechPhilosophy: "",
-
+    Img:  muzamil ,
   },
   {
     name: "Balaji",
     role: "Full-Stack Developer | API Architect",
     about:
       "Balaji is the wizard behind our code. Specializing in React, Node.js, and Python, he builds apps that are as secure as they are scalable. From crafting bulletproof APIs to optimizing database performance, he’s obsessed with clean, efficient code. Fun fact: Balaji once automated his entire morning routine—from brewing coffee to checking server logs—using a custom Python script. Talk about work-life balance!",
-    TechPhilosophy: "If you can dream it, we can code it—securely.",
-    Img:""
+    Img: "",
   },
   {
     name: "Mohamed Sheik",
@@ -25,25 +26,27 @@ const aboutdetails = [
     about:
       "Shek turns complexity into clarity. With a background in psychology and a knack for pixel-perfect designs, he creates interfaces that users love—without compromising security.His work has been featured in DSEC and praised for blending aesthetics with functionality . When he’s not sketching wireframes, shek hosts workshops on design thinking and mentors aspiring creatives.",
 
-      Img:""
+    Img:  shek ,
   },
 ];
 
-const AboutStaffCards = ({ name, role, about, TechPhilosophy }) => (
+const AboutStaffCards = ({ name, role, about, Img }) => (
   <div className="bg-white/10 shadow-xl rounded-lg overflow-hidden hover:shadow-2xl backdrop-blur-lg border border-white/20 p-6 lg:min-w-[70%] max-w-[90%] lg:h-[90%] self-center py-auto my-10 flex flex-col lg:flex-row gap-4 mx-auto text-start">
     <div className="lg:w-[40%]">
-     
-    <div className="lg:max-w-[45%] lg:h-[80%] bg-violet-800 rounded-s-full rounded-tr-full mx-auto overflow-hidden">
-  <img src="/ceo.jpg" alt="CEO" className="w-full h-full object-cover" loading={lazy}/>
-</div>
-
+      <div className="lg:max-w-[45%] lg:max-h-[80%] bg-violet-800 rounded-s-full rounded-tr-full mx-auto overflow-hidden">
+        <img
+          src={Img}
+          alt="CEO"
+          className="w-full h-full object-cover"
+          loading={lazy}
+        />
+      </div>
     </div>
-    <div className="lg:w-[50%]">
+    <div className="lg:w-[50%] my-auto">
       <h3 className="text-xl font-semibold text-white mb-4">
         {name} – {role}
       </h3>
       <p className="text-white">{about}</p>
-      <p className="text-white">{TechPhilosophy}</p>
     </div>
   </div>
 );
@@ -139,24 +142,20 @@ function AboutPage() {
           </div>
           <div className="right my-auto"> </div>
         </section>
-        
-
 
         <div className="left lg:w-[50%] lg:my-auto w-full">
-            <h1 className="lg:text-[6rem] text-[3.5rem] font-bold  bg-gradient-to-l from-violet-300 via-cyan-200 to-blue-700 bg-clip-text text-transparent whitespace-nowrap text-center">
-              Outlook
-            </h1>
+          <h1 className="lg:text-[6rem] text-[3.5rem] font-bold  bg-gradient-to-l from-violet-300 via-cyan-200 to-blue-700 bg-clip-text text-transparent whitespace-nowrap text-center">
+            Outlook
+          </h1>
 
-            <p className="px-10 mt-10 text-xl mx-auto">
-        
-              
+          <p className="px-10 mt-10 text-xl mx-auto">
             We’re dedicated to staying ahead of technological trends, offering
-              innovative solutions that enhance security and user experience,
-              and helping clients succeed in an ever-evolving digital landscape.
-            </p>
-          </div>
+            innovative solutions that enhance security and user experience, and
+            helping clients succeed in an ever-evolving digital landscape.
+          </p>
+        </div>
 
-          <hr className="w-[90%] mx-auto my-5" />
+        <hr className="w-[90%] mx-auto my-5" />
 
         {/* section - 4 */}
         <section>
