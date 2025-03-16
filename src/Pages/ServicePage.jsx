@@ -20,6 +20,8 @@ const cybersecurity = "/cybersecurity.svg";
 const casestudy1 = "/casestudy1.jpg";
 const casestudy2 = "/casestudy2.jpg";
 
+const shek = "/shek.jpg";
+
 
 import {Footer} from '../Components/Footer'
 
@@ -177,7 +179,7 @@ function ServicePage() {
         variant="circular"
         alt="tania andrew"
         className="border-2 border-white"
-        src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
+        src={shek}
       />
     </CardBody>
   </Card>
@@ -220,7 +222,7 @@ function ServicePage() {
         variant="circular"
         alt="tania andrew"
         className="border-2 border-white"
-        src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
+        src={shek}
       />
     </CardBody>
   </Card>
