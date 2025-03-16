@@ -5,6 +5,15 @@ import { Carousel } from "@material-tailwind/react";
 const muzamil = "/muzamil.jpg";
 const shek = "/shek.jpg";
 
+const vector = "/Vector.png";
+const virus = "/virus.png";
+const web = "/web-analysis.png";
+const dicon = "/3dicons.png";
+const news = "/news.png";
+
+const about = "/about-1.png";
+const security = "/secutity.png";
+
 const aboutdetails = [
   {
     name: "Mohammed Muzamil",
@@ -15,7 +24,7 @@ const aboutdetails = [
   },
   {
     name: "Balaji",
-    role: "COO | Full-Stack Developer | API Architect",
+    role: "Full-Stack Developer | API Architect",
     about:
       "Balaji is the wizard behind our code. Specializing in React, Node.js, and Python, he builds apps that are as secure as they are scalable. From crafting bulletproof APIs to optimizing database performance, he’s obsessed with clean, efficient code. Fun fact: Balaji once automated his entire morning routine—from brewing coffee to checking server logs—using a custom Python script. Talk about work-life balance!",
     Img: "",
@@ -68,7 +77,7 @@ function AboutPage() {
         {/* Section- 1 */}
         <section className="flex lg:flex-row flex-col justify-evenly items-center lg:h-[100vh] py-10 lg:py-0 mx-auto px-10  w-full">
           <div className="left lg:w-[30%]">
-            <img src="" alt="No image" />
+            <img src="" alt="" srcset="" />
           </div>
           <div className="right lg:w-[60%]">
             <h2 className="text-md lg:text-lg text-blue-300 font-semibold lg:mb-2">
@@ -123,7 +132,9 @@ function AboutPage() {
               UI/UX design, helping them thrive in a digital-first world.
             </p>
           </div>
-          <div className="right my-auto"> </div>
+          <div className="right my-auto w-[50%]">
+          <img src={about} alt="No image" className="w-[50%] mx-auto"/>
+             </div>
         </section>
         {/* <hr className="w-[90%] mx-auto my-5" /> */}
 
@@ -140,9 +151,12 @@ function AboutPage() {
               skilled professionals ready to tackle tomorrow's challenges
             </p>
           </div>
-          <div className="right my-auto"> </div>
+          <div className="right my-auto w-[50%]">
+          <img src={security} alt="No image" className="w-[50%] mx-auto"/>
+             </div>
         </section>
 
+<section className="flex flex-row py-8">
         <div className="left lg:w-[50%] lg:my-auto w-full">
           <h1 className="lg:text-[6rem] text-[3.5rem] font-bold  bg-gradient-to-l from-violet-300 via-cyan-200 to-blue-700 bg-clip-text text-transparent whitespace-nowrap text-center">
             Outlook
@@ -154,7 +168,10 @@ function AboutPage() {
             helping clients succeed in an ever-evolving digital landscape.
           </p>
         </div>
-
+        <div className="right my-auto w-[50%]">
+          <img src={about} alt="No image" className="w-[50%] mx-auto"/>
+             </div>
+             </section>
         <hr className="w-[90%] mx-auto my-5" />
 
         {/* section - 4 */}
@@ -172,9 +189,9 @@ function AboutPage() {
             {/* Large Card - 1 */}
             <div className="lg:col-span-3 bg-[#1A0B30] rounded-2xl p-6 shadow-lg hover:shadow-2xl transition transform hover:-translate-y-3">
               <img
-                src="shield-icon.png"
+                src={vector}
                 alt="Data Privacy"
-                className="w-16 h-16 mb-4"
+                className="w-36 h-36 mb-4"
               />
               <h3 className="text-white text-xl font-semibold">
                 1. Cybersecurity Training 🚀
@@ -189,9 +206,9 @@ function AboutPage() {
             {/* Medium Card - 2 */}
             <div className="bg-[#0F0F1A]  rounded-2xl p-6 shadow-lg hover:shadow-2xl transition transform hover:-translate-y-3">
               <img
-                src="target-icon.png"
+                src={dicon}
                 alt="Cybersecurity Best Practices"
-                className="w-16 h-16 mb-4"
+                className="w-36 h-36 mb-4"
               />
               <h3 className="text-white text-xl font-semibold">
                 2. Web Development 🕸️
@@ -205,9 +222,9 @@ function AboutPage() {
             {/* Large Card - 3 */}
             <div className="lg:row-span-2 lg:col-span-2 bg-[#191138] rounded-2xl p-6 shadow-lg hover:shadow-2xl transition transform hover:-translate-y-3">
               <img
-                src="news-icon.png"
+                src={news}
                 alt="Industry News"
-                className="w-16 h-16 mb-4"
+                className="w-28 h-28 mb-4"
               />
               <h3 className="text-white text-xl font-semibold">
                 3. UI/UX Design 🖌️
@@ -220,11 +237,11 @@ function AboutPage() {
             </div>
 
             {/* Small Card - 4 */}
-            <div className="bg-[#1E193C] rounded-2xl p-6 shadow-lg hover:shadow-2xl transition transform hover:-translate-y-3">
+            <div className="lg:row-span-2 lg:col-span-1 bg-[#1E193C] rounded-2xl p-6 shadow-lg hover:shadow-2xl transition transform hover:-translate-y-3">
               <img
-                src="business-icon.png"
+                src={web}
                 alt="Cybersecurity for Businesses"
-                className="w-16 h-16 mb-4"
+                className="w-24 h-24 mb-4"
               />
               <h3 className="text-white text-xl font-semibold">
                 4. Consulting Services 🎧
@@ -237,11 +254,11 @@ function AboutPage() {
             </div>
 
             {/* Small Card - 5 */}
-            <div className="bg-[#130C24] rounded-2xl p-6 shadow-lg hover:shadow-2xl transition transform hover:-translate-y-3">
+            <div className="lg:row-span-2 lg:col-span-1 bg-[#130C24] rounded-2xl p-6 shadow-lg hover:shadow-2xl transition transform hover:-translate-y-3">
               <img
-                src="threat-icon.png"
+                src={virus}
                 alt="Cyber Threats"
-                className="w-16 h-16 mb-4"
+                className="w-24 h-24 mb-4"
               />
               <h3 className="text-white text-xl font-semibold">
                 5. Career Mentorship 🗞️
