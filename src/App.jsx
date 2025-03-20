@@ -24,10 +24,10 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/service" element={<Service />} />
-        <Route path="/Blog1" element={<Blog1 />} />
-        <Route path="/Blog2" element={<Blog2 />} />
-        <Route path="/Blog3" element={<Blog3 />} />
-        <Route path="/Blog4" element={<Blog4 />} />
+        <Route path="/blog/blog1" element={<Blog1 />} />
+        <Route path="/blog/blog2" element={<Blog2 />} />
+        <Route path="/blog/blog3" element={<Blog3 />} />
+        <Route path="/blog/blog4" element={<Blog4 />} />
       </Routes>
       
     </Router>
