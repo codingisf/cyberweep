@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../Components/Footer";
 
 function Blog2() {
   return (
@@ -110,6 +111,7 @@ function Blog2() {
           your bottom line.
         </p>
       </section>
+      <Footer className="h-[30%]" />
     </section>
   );
 }
