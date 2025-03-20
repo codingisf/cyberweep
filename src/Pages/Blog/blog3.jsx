@@ -1,11 +1,12 @@
 import React from "react";
+import Footer from "../../Components/Footer";
 
 function blog3() {
   return (
     <section className="bg-black min-h-[100vh] text-white py-10">
       <h1 className="text-4xl text-center font-bold py-32">Cyberweeb Blogs</h1>
       <section className="lg:w-[60%] w-[90%] mx-auto h-full">
-        <p className="text-xl font-bold my-5">Introduction</p>
+        <p className="text-2xl font-bold my-5">Introduction</p>
         <p>
           Insecure code isn’t just a bug—it’s a business risk. With 60% of data
           breaches linked to software vulnerabilities (Verizon DBIR, 2024),
@@ -85,6 +86,7 @@ function blog3() {
           recoverable incident.
         </p>
       </section>
+      <Footer className="h-[30%]" />
     </section>
   );
 }
