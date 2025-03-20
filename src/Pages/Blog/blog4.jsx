@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../Components/Footer";
 
 function blog4() {
   return (
@@ -82,6 +83,7 @@ function blog4() {
           users love—and trust.
         </p>
       </section>
+      <Footer className="h-[30%]" />
     </section>
   );
 }
