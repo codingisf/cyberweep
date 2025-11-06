@@ -112,37 +112,33 @@ function Homepage() {
           </h1>
           <section className="pl-10 w-full pt-5">
             <span className="text-blue-400 lg:text-lg text-md font-bold">
-              About Company
+              About Securehutz
             </span>
             <h1 className="lg:text-3xl text-xl font-semibold">
-              Cyberweep Infotech
+              Securehutz Technologies
             </h1>
             <p className="text-md lg:text-xl">
-              It's a Cybersecurity Training & Web/Application Development
-              Company
+              It's a Cybersecurity & Web/Application Development Company
             </p>
           </section>
           <section className="lg:flex justify-between items-start mx-auto mt-20 w-[90%] h-full">
             <div className="lg:w-[40%]"></div>
             <div className="lg:w-[50%]">
               <p>
-                At cyberweep Infotech, we are committed to empowering
-                individuals and businesses through expert-led cybersecurity
-                training, alongside web development and UI/UX design solutions.
-                In today’s digital age, security is not just an option—it’s a
-                necessity. Our training programs are designed to equip aspiring
-                professionals and organizations with the knowledge and skills
-                needed to defend against cyber threats, mitigate risks, and stay
-                ahead in the evolving security landscape.
+                At SecureHutz, our mission is to create a safer digital world
+                for businesses of every size. We believe that security and
+                innovation go hand in hand — that every website, application,
+                and digital product should be built on a foundation of trust.
+                Our team is driven by the vision of empowering organizations to
+                grow without fear, knowing their digital assets are protected by
+                experts who care.
               </p>
               <p className="mt-10">
-                Beyond training, we specialize in building secure,
-                high-performance web applications and crafting user-centric
-                UI/UX designs that enhance digital experiences. Whether you’re
-                looking to upskill in cybersecurity, create a robust online
-                presence, or develop intuitive digital solutions, cyberweep
-                Infotech is here to help you navigate the future of technology
-                with confidence.
+                Combining deep expertise in cybersecurity and modern web
+                development, SecureHutz delivers solutions that are both secure
+                and scalable. From identifying vulnerabilities to developing
+                resilient systems, we ensure that every client we serve moves
+                forward with confidence in an ever-evolving digital landscape.
               </p>
             </div>
           </section>
@@ -150,90 +146,96 @@ function Homepage() {
 
         {/* section - 3 */}
         <section className="relative lg:h-[88vh] bg-cover bg-center">
-          <h1 className=" lg:text-xl text-lg font-semibold mt-10 pl-10 bg-violet-800">
-            Why choose us ?
+          <h1 className=" lg:text-4xl text-xl font-semibold mt-10 pl-10 bg-violet-800 py-5">
+            Our Services
           </h1>
-          <p className="lg:text-4xl py-2 text-xl font-semibold pl-10 bg-violet-800">
-            Exclusive offers Await
-          </p>
 
           {/* card Container */}
           <section className="py-14 h-full flex items-center justify-center">
-  <div className="container mx-auto px-4 w-[95%]">
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-      
-      {/* Card - 1 */}
-      <div className="bg-white/10 relative shadow-xl rounded-lg hover:shadow-2xl transform hover:-translate-y-3 transition duration-300 backdrop-blur-lg border border-white/20">
-        <div className="p-6">
-          {/* Circular Icon */}
-          <div className="mb-4 absolute -top-5 -right-5 rounded-full w-20 h-20 bg-black outline outline-4 outline-violet-800 z-10">
-            <img
-              src={bulb}
-              alt="cyber-security-solutions web-development full-stack"
-              className="w-full h-full object-cover rounded-full p-4"
-            />
-          </div>
-          <h3 className="text-xl font-semibold text-white mb-4">
-            🚀 Cutting-Edge Cybersecurity Training
-          </h3>
-          <p className="text-white/80">
-            Stay ahead of cyber threats with our industry-leading cybersecurity training. 
-            We offer hands-on, real-world simulations designed by experts to equip you with 
-            the latest tools and techniques.
-          </p>
-        </div>
-      </div>
+            <div className="container mx-auto px-4 w-[95%]">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                {/* Card - 1 */}
+                <div className="bg-white/10 relative shadow-xl rounded-lg hover:shadow-2xl transform hover:-translate-y-3 transition duration-300 backdrop-blur-lg border border-white/20">
+                  <div className="p-6">
+                    {/* Circular Icon */}
+                    <div className="mb-4 absolute -top-5 -right-5 rounded-full w-20 h-20 bg-black outline outline-4 outline-violet-800 z-10">
+                      <img
+                        src={bulb}
+                        alt="cyber-security-solutions web-development full-stack"
+                        className="w-full h-full object-cover rounded-full p-4"
+                      />
+                    </div>
+                    <h3 className="text-xl font-semibold text-white mb-4">
+                      Web Application Penetration Testing
+                    </h3>
+                    <p className="text-white/80 text-justify">
+                      Our penetration testing services are designed to uncover
+                      security vulnerabilities before attackers do. SecureHutz’s
+                      certified experts perform in-depth assessments using
+                      industry-standard methodologies such as OWASP, simulating
+                      real-world attacks to evaluate your web application’s
+                      resilience. We deliver detailed, actionable reports that
+                      help you strengthen your defenses and ensure compliance
+                      with global security standards.
+                    </p>
+                  </div>
+                </div>
 
-      {/* Card - 2 */}
-      <div className="relative bg-white/10 shadow-xl rounded-lg hover:shadow-2xl transform hover:-translate-y-3 transition duration-300 backdrop-blur-lg border border-white/20">
-        <div className="p-6">
-          {/* Circular Icon */}
-          <div className="mb-4 absolute -top-5 -right-5 rounded-full w-20 h-20 bg-black outline outline-4 outline-violet-800 z-10">
-            <img
-              src={group}
-              alt="cyber-security-solutions web-development full-stack"
-              className="w-full h-full object-cover rounded-full p-4"
-            />
-          </div>
-          <h3 className="text-xl font-semibold text-white mb-4">
-            🎯 Expert-Led Web Development & UI/UX Design
-          </h3>
-          <p className="text-white/80">
-            Learn from the best in web development and UI/UX design. Our courses focus on 
-            practical, project-based learning to help you master front-end and back-end technologies.
-          </p>
-        </div>
-      </div>
+                {/* Card - 2 */}
+                <div className="relative bg-white/10 shadow-xl rounded-lg hover:shadow-2xl transform hover:-translate-y-3 transition duration-300 backdrop-blur-lg border border-white/20">
+                  <div className="p-6">
+                    {/* Circular Icon */}
+                    <div className="mb-4 absolute -top-5 -right-5 rounded-full w-20 h-20 bg-black outline outline-4 outline-violet-800 z-10">
+                      <img
+                        src={group}
+                        alt="cyber-security-solutions web-development full-stack"
+                        className="w-full h-full object-cover rounded-full p-4"
+                      />
+                    </div>
+                    <h3 className="text-xl font-semibold text-white mb-4">
+                      Vulnerability Assessment and Remediation
+                    </h3>
+                    <p className="text-white/80 text-justify">
+                      We don’t just find vulnerabilities — we help you fix them.
+                      SecureHutz provides comprehensive vulnerability
+                      assessments across your applications and infrastructure,
+                      identifying risks that could compromise your data or
+                      operations. Our remediation support guides your team
+                      through prioritizing and patching issues effectively,
+                      turning potential weaknesses into long-term security
+                      improvements.
+                    </p>
+                  </div>
+                </div>
 
-      {/* Card - 3 */}
-      <div className="bg-white/10 relative shadow-xl rounded-lg hover:shadow-2xl transform hover:-translate-y-3 transition duration-300 backdrop-blur-lg border border-white/20">
-        <div className="p-6">
-          {/* Circular Icon */}
-          <div className="mb-4 absolute -top-5 -right-5 rounded-full w-20 h-20 bg-black outline outline-4 outline-violet-800 z-10">
-            <img
-              src={money}
-              alt="cyber-security-solutions web-development full-stack"
-              className="w-full h-full object-cover rounded-full p-4"
-            />
-          </div>
-          <h3 className="text-xl font-semibold text-white mb-4">
-            🔥 Career-Focused Learning & Growth
-          </h3>
-          <p className="text-white/80">
-            We don’t just train you—we prepare you for success! Our programs are designed 
-            with a career-oriented approach, offering mentorship, real-world projects, 
-            and placement support.
-          </p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-
-
+                {/* Card - 3 */}
+                <div className="bg-white/10 relative shadow-xl rounded-lg hover:shadow-2xl transform hover:-translate-y-3 transition duration-300 backdrop-blur-lg border border-white/20">
+                  <div className="p-6">
+                    {/* Circular Icon */}
+                    <div className="mb-4 absolute -top-5 -right-5 rounded-full w-20 h-20 bg-black outline outline-4 outline-violet-800 z-10">
+                      <img
+                        src={money}
+                        alt="cyber-security-solutions web-development full-stack"
+                        className="w-full h-full object-cover rounded-full p-4"
+                      />
+                    </div>
+                    <h3 className="text-xl font-semibold text-white mb-4">
+                      Secure Web Development (Front-End & Back-End)
+                    </h3>
+                    <p className="text-white/80 text-justify">
+                      Security starts at the code level. Our web development
+                      team builds high-performing, scalable websites and
+                      applications with security woven into every line of code.
+                      From frontend interfaces to backend systems, we apply
+                      secure coding practices, modern frameworks, and rigorous
+                      testing to ensure your product is fast, functional, and
+                      fortified against threats.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </section>
 
         {/* section - 4 */}
@@ -257,9 +259,7 @@ function Homepage() {
               <section className="lg:w-[60%] w-[85%] mt-20 lg:mt-0 ">
                 <h1 className="mb-6 text-2xl">
                   Hi,
-                  <span className="font-semibold ">
-                    I'm Mohammed Muzamil,
-                  </span>
+                  <span className="font-semibold ">I'm Mohammed Muzamil,</span>
                   your instructor.
                 </h1>
                 <p>
@@ -277,14 +277,101 @@ function Homepage() {
                 </p>
 
                 <h1 className="text-blue-600 pb-5 rounded hover:cursor-pointer text-2xl underline w-full mt-5">
-                  Founder & CEO of Cyberweep
+                  Founder & CEO of Securehutz
                 </h1>
               </section>
             </div>
           </div>
         </section>
 
-        {/* section - 5 */}
+        {/* section -5 */}
+        <section className="relative lg:h-[88vh] bg-cover bg-center">
+          <h1 className=" lg:text-4xl text-xl font-semibold mt-10 pl-10 bg-violet-800 py-5">
+            Our Services
+          </h1>
+
+          {/* card Container */}
+          <section className="py-14 h-full flex items-center justify-center">
+            <div className="container mx-auto px-4 w-[95%]">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                {/* Card - 1 */}
+                <div className="bg-white/10 relative shadow-xl rounded-lg hover:shadow-2xl transform hover:-translate-y-3 transition duration-300 backdrop-blur-lg border border-white/20">
+                  <div className="p-6">
+                    <h3 className="text-xl font-semibold text-white mb-4">
+                      Expertise You Can Trust
+                    </h3>
+                    <p className="text-white/80 text-justify">
+                      Our team of certified cybersecurity professionals and
+                      experienced developers ensures every solution is backed by
+                      deep technical knowledge and industry best practices.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Card - 2 */}
+                <div className="relative bg-white/10 shadow-xl rounded-lg hover:shadow-2xl transform hover:-translate-y-3 transition duration-300 backdrop-blur-lg border border-white/20">
+                  <div className="p-6">
+                    <h3 className="text-xl font-semibold text-white mb-4">
+                      End-to-End Security
+                    </h3>
+                    <p className="text-white/80 text-justify">
+                      From identifying vulnerabilities to building secure web
+                      applications, SecureHutz provides comprehensive protection
+                      for your digital assets.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Card - 3 */}
+                <div className="bg-white/10 relative shadow-xl rounded-lg hover:shadow-2xl transform hover:-translate-y-3 transition duration-300 backdrop-blur-lg border border-white/20">
+                  <div className="p-6">
+                    <h3 className="text-xl font-semibold text-white mb-4">
+                      Client-Focused Approach
+                    </h3>
+                    <p className="text-white/80 text-justify">
+                      We prioritize understanding your unique needs, delivering
+                      tailored solutions that align with your business goals and
+                      growth strategy.
+                    </p>
+                  </div>
+                </div>
+                {/* Card - 4 */}
+                <div className="bg-white/10 relative shadow-xl rounded-lg hover:shadow-2xl transform hover:-translate-y-3 transition duration-300 backdrop-blur-lg border border-white/20">
+                  <div className="p-6">
+                    <h3 className="text-xl font-semibold text-white mb-4">
+                      Proactive Innovation
+                    </h3>
+                    <p className="text-white/80 text-justify">
+                      We stay ahead of emerging threats and technology trends,
+                      ensuring your systems remain secure and future-ready.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <p className="text-center lg:text-2xl text-lg">
+          Your business deserves a secure and reliable digital presence.Schedule Your Free Security Consultation Today
+        </p>
+        <div className="relative group mt-8 flex justify-center">
+          <div className="relative w-64 h-14 opacity-90 overflow-hidden rounded-xl bg-black z-10">
+            <div className="absolute z-10 -translate-x-44 group-hover:translate-x-[30rem] ease-in transistion-all duration-700 h-full w-44 bg-gradient-to-r from-gray-500 to-white/10 opacity-30 -skew-x-12"></div>
+
+            <div className="absolute flex items-center justify-center text-white z-[1] opacity-90 rounded-2xl inset-0.5 bg-black">
+              <button
+                name="text"
+                className="input font-semibold text-lg h-full opacity-90 w-full px-4 py-3 rounded-xl bg-black"
+              >
+                Contact Our Team
+              </button>
+            </div>
+            <div className="absolute duration-1000 group-hover:animate-spin w-full h-[100px] bg-gradient-to-r from-green-500 to-yellow-500 blur-[30px]"></div>
+          </div>
+        </div>
+
+        {/* section - 6 */}
         <section className="relative lg:h-[88vh] bg-cover bg-center">
           <section className="bg-violet-800">
             <h1 className=" lg:text-xl text-lg font-semibold mt-10 pl-10">
@@ -312,7 +399,7 @@ function Homepage() {
           </section>
         </section>
 
-        {/* section - 6 */}
+        {/* section - 7 */}
         <section className="relative h-[40vh] px-10 mt-10">
           <div className="min-h-52 bg-violet-800 mx-auto rounded-[3rem] outline outline-8 outline-gray-800 p-10 flex flex-col justify-evenly">
             <div className="flex lg:flex-row flex-col justify-evenly w-full">
@@ -326,9 +413,10 @@ function Homepage() {
               </div>
             </div>
             <div className="mx-auto">
-                <button className="max-w-22 px-6 py-3 rounded-xl bg-violet-900 text-white hover:rounded-none transition-all">
-                  Explore projects
-                </button></div>
+              <button className="max-w-22 px-6 py-3 rounded-xl bg-violet-900 text-white hover:rounded-none transition-all">
+                Explore projects
+              </button>
+            </div>
           </div>
         </section>
 
