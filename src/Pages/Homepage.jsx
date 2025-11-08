@@ -1,61 +1,12 @@
 import Footer from "../Components/Footer";
-import { Carousel } from "@material-tailwind/react";
-import { StarIcon } from "@heroicons/react/24/solid";
+
 
 const muzamil = "/muzamil.jpg";
-const explore_project = "/explore-project.png";
+export const explore_project = "/explore-project.png";
 const bulb = "/bulb.png";
 const group = "/Group.png";
 const money = "/money.png";
 
-const testimonials = [
-  {
-    name: "Vishnu Prasath",
-    role: "Computer Science Student",
-    text: "This course was exceptionally well-structured, covering both fundamental and advanced topics with a strong practical focus. The mentor demonstrated deep expertise, providing clear explanations and real-world applications that enhanced my understanding. Hands-on labs, live demonstrations, and case studies made complex concepts easier to grasp. The course not only strengthened my technical skills but also emphasized ethical responsibility in cybersecurity practices. I highly recommend this course to anyone looking to advance their skills in ethical hacking and security.",
-  },
-  {
-    name: "Agalya K.",
-    role: "Cyber Security Student",
-    text: "I sincerely appreciate the effort and dedication you put into mentoring.Your patience,encouragement,and real -world insights have helped me develop a deeper understanding and confidence in my skills.your guidence has not only improved my knowledge but also inspired me to keep learning and growing.Thank you for your unwavering support and dedication.The instructor’s expertise and personalized approach made complex topics more digestible. I now feel confident about my skills in ethical hacking and ready for internships and future job opportunities!",
-  },
-  {
-    name: "Vincent Durai M.",
-    role: "Artificial Intelligence And Machine Learning Major",
-    text: "I personally got addicted in cyber security because of my mentor's training session .The training sessions were extremely informative, covering everything from vulnerability analysis to advanced cybersecurity techniques. The mentor’s expertise and personalized approach made complex topics more digestible. I now feel confident about my skills in ethical hacking and ready for internships and future job opportunities.I wish that i could learn more informations about cyber security from you and thankyou for guiding me and for keeping me as a part in your team.I will try my level best!",
-  },
-  {
-    name: "Kavitha.B",
-    role: "Cybersecurity Major",
-    text: "The cybersecurity course was highly informative and well-structured, covering essential topics such as ethical hacking, encryption, and . The practical hands-on sessions provided a clear understanding of real-world cybersecurity challenges and solutions. A special mention to the mentor, whose expertise and guidance made the learning experience even more enriching. Their ability to simplify complex concepts, provide real-life examples, and engage students through interactive sessions was remarkable. The mentor’s dedication, continuous support, and encouragement helped build both knowledge and confidence in cybersecurity. Overall, this course has significantly enhanced my understanding of cybersecurity principles and tools, preparing me to tackle future challenges in this field",
-  },
-  {
-    name: "Kavya Dharshini. R.U",
-    role: "cyber security major",
-    text: "I found this course to be an excellent supplement to my academic studies.This course challenged me to think critically and creatively about cybersecurity. The mentor's emphasis on problem-solving and critical thinking was invaluable.This course helped me develop practical skills that I can apply directly to my future career. The labs on network security and intrusion detection were particularly relevant to my interests.The instructor's industry connections and career guidance were also very helpful. I highly recommend this course to any cybersecurity student looking to gain a competitive edge.",
-  },
-  {
-    name: "Chidhu.T",
-    role: "Cyber security Student",
-    text: "I started this program with little knowledge of cybersecurity, but now I feel confident in my skills. The structured curriculum, industry insights, and career advice have prepared me to take on the real-world challenges of IT security. This course has been a game-changer for my academic and career goals!.Best Learning Experience – I gained a strong grasp of ethical hacking techniques through this course. The real-world examples, interactive labs, and mentor’s clear explanations made it one of the most valuable learning experiences I’ve had in cybersecurity.",
-  },
-];
-
-const TestimonialCard = ({ name, role, text }) => (
-  <div className="bg-white/10 shadow-xl rounded-lg overflow-hidden hover:shadow-2xl backdrop-blur-lg border border-white/20 p-6 lg:max-w-[70%] max-w-[80%] self-center py-auto my-auto">
-    <h3 className="text-xl font-semibold text-white mb-4">
-      {name} – {role}
-    </h3>
-    <p className="text-white">{text}</p>
-    <div className="flex mt-1">
-      <StarIcon className="w-6 h-6 text-yellow-500" />
-      <StarIcon className="w-6 h-6 text-yellow-500" />
-      <StarIcon className="w-6 h-6 text-yellow-500" />
-      <StarIcon className="w-6 h-6 text-yellow-500" />
-      <StarIcon className="w-6 h-6 text-yellow-500" />
-    </div>
-  </div>
-);
 
 function Homepage() {
   return (
@@ -372,36 +323,11 @@ function Homepage() {
         </div>
 
         {/* section - 6 */}
-        <section className="relative lg:h-[88vh] bg-cover bg-center">
-          <section className="bg-violet-800">
-            <h1 className=" lg:text-xl text-lg font-semibold mt-10 pl-10">
-              Our customers
-            </h1>
-            <p className="lg:text-4xl text-xl font-semibold pl-10 pb-3">
-              Testimonials
-            </p>
-          </section>
-
-          {/* card Container */}
-
-          <section className="py-14 h-full flex items-center justify-center">
-            <div className="container mx-auto px-4 w-[95%]">
-              <div className="flex justify-center items-center">
-                <Carousel className="w-full py-5" autoplay={true} loop={true}>
-                  {testimonials.map((t, i) => (
-                    <div key={i} className="flex justify-center">
-                      <TestimonialCard {...t} />
-                    </div>
-                  ))}
-                </Carousel>
-              </div>
-            </div>
-          </section>
-        </section>
+        
 
         {/* section - 7 */}
-        <section className="relative h-[40vh] px-10 mt-10">
-          <div className="min-h-52 bg-violet-800 mx-auto rounded-[3rem] outline outline-8 outline-gray-800 p-10 flex flex-col justify-evenly">
+        <section className="relative h-[40vh] px-10 my-10">
+          <div className="min-h-52 bg-violet-800 mx-auto rounded-[3rem] p-10 flex flex-col justify-evenly">
             <div className="flex lg:flex-row flex-col justify-evenly w-full">
               <div className="left lg:w-[70%] my-auto">
                 <h1 className="text-xl lg:text-4xl font-semibold text-white">
@@ -413,7 +339,7 @@ function Homepage() {
               </div>
             </div>
             <div className="mx-auto">
-              <button className="max-w-22 px-6 py-3 rounded-xl bg-violet-900 text-white hover:rounded-none transition-all">
+              <button className="max-w-22 px-6 py-3 font-bold rounded-2xl text-violet-800 bg-white hover:rounded-none transition-all">
                 Explore projects
               </button>
             </div>
