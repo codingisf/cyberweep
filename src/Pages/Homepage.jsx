@@ -190,7 +190,7 @@ function Homepage() {
         </section>
 
         {/* section - 4 */}
-        <section className="relative lg:h-[88dvh] bg-cover bg-center">
+        {/* <section className="relative lg:h-[88dvh] bg-cover bg-center">
           <div className="container flex justify-evenly items-center h-full lg:px-10 px-5 mx-auto my-5 ">
             <div className="relative lg:h-[57%] bg-violet-900 flex lg:flex-row rounded-lg flex-col justify-between mx-auto items-center w-full p-0 ">
               <section className="">
@@ -233,7 +233,7 @@ function Homepage() {
               </section>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* section -5 */}
         <section className="relative lg:h-[88vh] bg-cover bg-center">
