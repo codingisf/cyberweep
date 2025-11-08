@@ -20,7 +20,7 @@ const aboutdetails = [
     role: "Founder & CEO | Cybersecurity Expert",
     about:
       "As the founder and CEO of Cyberweek, I’ve always been driven by a passion for technology and a vision for a secure digital future. With 4 years of experience in cybersecurity, networking, Linux, and prompt engineering, I’ve built a career on solving complex problems and creating innovative solutions.My journey began with a deep curiosity for how systems work—from securing networks to optimizing Linux servers and leveraging AI-driven prompt engineering to streamline workflows..",
-    Img:  muzamil ,
+    Img: muzamil,
   },
   {
     name: "Balaji",
@@ -35,7 +35,7 @@ const aboutdetails = [
     about:
       "Shek turns complexity into clarity. With a background in psychology and a knack for pixel-perfect designs, he creates interfaces that users love—without compromising security.His work has been featured in DSEC and praised for blending aesthetics with functionality . When he’s not sketching wireframes, shek hosts workshops on design thinking and mentors aspiring creatives.",
 
-    Img:  shek ,
+    Img: shek,
   },
 ];
 
@@ -84,32 +84,26 @@ function AboutPage() {
               Our Story
             </h2>
             <h1 className="text-2xl lg:text-[2.5rem] font-semibold lg:mb-7">
-              Cyberweep Infotech
+              Securehutz Technologies
             </h1>
             <p className="text-md lg:text-lg mb-5">
               Your security is our prioity
             </p>
             <p className="mb-5">
-              At Cyberweek, we believe in a safer, smarter digital future. Our
-              journey began in 2025 with a simple yet powerful vision: to
-              empower individuals and businesses with the tools and knowledge
-              they need to thrive in an increasingly connected world.As cyber
-              threats grew more sophisticated, we saw a gap—between the need for
-              robust security and the lack of accessible, practical training.
-              That’s why we launched our cybersecurity training programs,
-              equipping everyone from beginners to seasoned professionals with
-              the skills to defend against evolving threats.
+              SecureHutz is a trusted cybersecurity and web development firm
+              focused on creating secure digital environments for organizations
+              across industries. Founded with a vision to bridge the gap between
+              innovation and security, we specialize in protecting critical web
+              applications while helping businesses build strong, scalable
+              online platforms.
             </p>
             <p className="mb-5">
-              But we didn’t stop there. Recognizing the importance of secure,
-              user-friendly digital experiences, we expanded into web
-              development. Today, we craft websites and applications that are
-              not only visually stunning but also built with security at their
-              core. What sets us apart? It’s our commitment to innovation, our
-              team of certified experts, and our passion for making a
-              difference. Whether you’re looking to upskill your team, build a
-              secure app, or protect your business from cyber threats, we’re
-              here to help you every step of the way.
+              Our team consists of experienced penetration testers, security
+              analysts, and web developers who work collaboratively to identify
+              risks, strengthen defenses, and deliver end-to-end digital
+              solutions. At SecureHutz, we believe that true security is not
+              just about protection — it’s about enabling growth, resilience,
+              and trust in the digital age.
             </p>
             <p>
               Join us in building a future where technology is both powerful and
@@ -127,14 +121,15 @@ function AboutPage() {
             </h1>
 
             <p className="px-10 mt-10 text-xl mx-auto">
-              We empower individuals and businesses with cutting-edge
-              cybersecurity training, innovative web development, and intuitive
-              UI/UX design, helping them thrive in a digital-first world.
+              To deliver innovative, reliable, and secure technology solutions
+              that empower businesses to thrive in the digital era while
+              maintaining the highest standards of integrity and
+              professionalism.
             </p>
           </div>
           <div className="right my-auto w-[50%]">
-          <img src={about} alt="No image" className="w-[50%] mx-auto"/>
-             </div>
+            <img src={about} alt="No image" className="w-[50%] mx-auto" />
+          </div>
         </section>
         {/* <hr className="w-[90%] mx-auto my-5" /> */}
 
@@ -146,32 +141,35 @@ function AboutPage() {
             </h1>
 
             <p className="px-10 mt-10 text-xl mx-auto">
-              Vision To shape the future of technology by creating secure,
-              user-friendly digital experiences and fostering a community of
-              skilled professionals ready to tackle tomorrow's challenges
+              To be a global leader in cybersecurity and secure web development
+              — recognized for excellence, trust, and continuous innovation in
+              protecting digital ecosystems.
             </p>
           </div>
           <div className="right my-auto w-[50%]">
-          <img src={security} alt="No image" className="w-[50%] mx-auto"/>
-             </div>
+            <img src={security} alt="No image" className="w-[50%] mx-auto" />
+          </div>
         </section>
 
-<section className="flex flex-row py-8">
-        <div className="left lg:w-[50%] lg:my-auto w-full">
-          <h1 className="lg:text-[6rem] text-[3.5rem] font-bold  bg-gradient-to-l from-violet-300 via-cyan-200 to-blue-700 bg-clip-text text-transparent whitespace-nowrap text-center">
-            Outlook
-          </h1>
+        <section className="flex flex-row py-8">
+          <div className="left lg:w-[50%] lg:my-auto w-full">
+            <h1 className="lg:text-[6rem] text-[3.5rem] font-bold  bg-gradient-to-l from-violet-300 via-cyan-200 to-blue-700 bg-clip-text text-transparent whitespace-nowrap text-center">
+              Outlook
+            </h1>
 
-          <p className="px-10 mt-10 text-xl mx-auto">
-            We’re dedicated to staying ahead of technological trends, offering
-            innovative solutions that enhance security and user experience, and
-            helping clients succeed in an ever-evolving digital landscape.
-          </p>
-        </div>
-        <div className="right my-auto w-[50%]">
-          <img src={about} alt="No image" className="w-[50%] mx-auto"/>
-             </div>
-             </section>
+            <p className="px-10 mt-10 text-xl mx-auto">
+              At SecureHutz, we look toward a future where innovation and
+              security work hand in hand. Our focus is on empowering businesses
+              to operate with confidence, knowing their digital ecosystems are
+              protected by expertise and guided by integrity. We are committed
+              to continuous improvement, technological advancement, and building
+              long-term partnerships that drive secure digital growth.
+            </p>
+          </div>
+          <div className="right my-auto w-[50%]">
+            <img src={about} alt="No image" className="w-[50%] mx-auto" />
+          </div>
+        </section>
         <hr className="w-[90%] mx-auto my-5" />
 
         {/* section - 4 */}
@@ -188,18 +186,13 @@ function AboutPage() {
           <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-8">
             {/* Large Card - 1 */}
             <div className="lg:col-span-3 bg-[#1A0B30] rounded-2xl p-6 shadow-lg hover:shadow-2xl transition transform hover:-translate-y-3">
-              <img
-                src={vector}
-                alt="Data Privacy"
-                className="w-36 h-36 mb-4"
-              />
+              <img src={vector} alt="Data Privacy" className="w-36 h-36 mb-4" />
               <h3 className="text-white text-xl font-semibold">
-                1. Cybersecurity Training 🚀
+                1. Web Application Penetration Testing
               </h3>
               <p className="text-gray-400 mt-2">
-                Master ethical hacking and penetration testing with hands-on,
-                real-world training. Build the skills to tackle modern
-                cybersecurity challenges.
+                Simulating real-world attack scenarios using OWASP methodologies
+                to detect and exploit vulnerabilities before threat actors do.
               </p>
             </div>
 
@@ -211,75 +204,66 @@ function AboutPage() {
                 className="w-36 h-36 mb-4"
               />
               <h3 className="text-white text-xl font-semibold">
-                2. Web Development 🕸️
+                2. Network and Infrastructure Security
               </h3>
               <p className="text-gray-400 mt-2">
-                We create responsive, secure websites tailored to your needs.
-                Empower your business with fast, scalable online solutions.
+                Conducting in-depth assessments of internal and external
+                networks, ensuring all components are hardened against
+                intrusion.
               </p>
             </div>
 
             {/* Large Card - 3 */}
             <div className="lg:row-span-2 lg:col-span-2 bg-[#191138] rounded-2xl p-6 shadow-lg hover:shadow-2xl transition transform hover:-translate-y-3">
-              <img
-                src={news}
-                alt="Industry News"
-                className="w-28 h-28 mb-4"
-              />
+              <img src={virus} alt="Industry News" className="w-28 h-28 mb-4" />
               <h3 className="text-white text-xl font-semibold">
-                3. UI/UX Design 🖌️
+                3. Vulnerability Assessment and Management
               </h3>
               <p className="text-gray-400 mt-2">
-                Designing intuitive, user-friendly interfaces that enhance
-                interaction and engagement. We focus on seamless, visually
-                appealing user experiences.
+                Systematic identification, classification, and remediation of
+                security flaws across applications, servers, and APIs.
               </p>
             </div>
 
             {/* Small Card - 4 */}
             <div className="lg:row-span-2 lg:col-span-1 bg-[#1E193C] rounded-2xl p-6 shadow-lg hover:shadow-2xl transition transform hover:-translate-y-3">
               <img
-                src={web}
+                src={news}
                 alt="Cybersecurity for Businesses"
                 className="w-24 h-24 mb-4"
               />
               <h3 className="text-white text-xl font-semibold">
-                4. Consulting Services 🎧
+                4. Secure Code Review
               </h3>
               <p className="text-gray-400 mt-2">
-                Expert consulting to optimize your cybersecurity strategy and
-                digital presence. Get actionable insights to protect and grow
-                your business.
+                Evaluating source code to detect logic errors, insecure coding
+                patterns, and hidden vulnerabilities before deployment.
               </p>
             </div>
 
             {/* Small Card - 5 */}
             <div className="lg:row-span-2 lg:col-span-1 bg-[#130C24] rounded-2xl p-6 shadow-lg hover:shadow-2xl transition transform hover:-translate-y-3">
-              <img
-                src={virus}
-                alt="Cyber Threats"
-                className="w-24 h-24 mb-4"
-              />
+              <img src={web} alt="Cyber Threats" className="w-24 h-24 mb-4" />
               <h3 className="text-white text-xl font-semibold">
-                5. Career Mentorship 🗞️
+                5. Secure Web Development
               </h3>
               <p className="text-gray-400 mt-2">
-                Personalized mentorship to guide your career in cybersecurity
-                and tech. Receive job placement assistance and career
-                development support.
+                Designing and developing high-performance applications using
+                secure frameworks, encryption standards, and access
+                control mechanisms.
               </p>
             </div>
           </section>
 
-          <section className="relative bg-black text-white py-32 text-center">
-            {/* Title & Description */}
+          {/* <section className="relative bg-black text-white py-32 text-center">
+            
             <h2 className="text-4xl font-bold">Meet our team</h2>
             <p className="text-gray-400 max-w-xl mx-auto mt-2">
               Clarity gives you the blocks & components you need to create a
               truly professional website, landing page, or admin panel for your
               SaaS.
             </p>
-            {/* Team Members with Curved Background */}
+            
             <div className="mx-auto px-4 w-[95%]">
               <div className="flex justify-center items-center">
                 <Carousel className="w-full py-10" autoplay={true} loop={true}>
@@ -289,7 +273,8 @@ function AboutPage() {
                 </Carousel>
               </div>
             </div>
-          </section>
+          </section>  */}
+          
         </section>
       </section>
 
