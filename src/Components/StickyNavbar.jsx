@@ -19,7 +19,7 @@ function StickyNavbar() {
 
   const navList = (
     <ul className="mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-      {["Home", "Blog", "Service", "About", "Contact"].map((item, index) => (
+      {["Home", "Blog", "Service","Training", "About", "Contact"].map((item, index) => (
         <Typography key={index} as="li" variant="small" className="p-1 text-white">
           <Link to={`/${item.toLowerCase()}`} className="flex items-center" onClick={() => {
             if (window.innerWidth <= 960) {
@@ -38,7 +38,7 @@ function StickyNavbar() {
       <div className="flex items-center justify-between text-blue-gray-900 py-auto">
         {/* Logo */}
         <Typography as="a" href="#" className="mr-4 cursor-pointer py-1.5 font-medium text-white">
-          Cyberweep
+          Secure Hutz
         </Typography>
 
         {/* Desktop Navigation */}
