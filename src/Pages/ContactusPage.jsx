@@ -216,24 +216,24 @@ function ContactusPage() {
               </div>
             </div>
             <div className="mt-5 mx-auto">
-              <div className="flex items-center space-y-2 mt-8 mx-auto">
+              <div className="flex align-center space-y-2 mt-8 mx-auto">
                 <PhoneIcon className="h-6 w-6 my-2 text-blue-300" />
                 <a
                   href="tel:+91 8220852483"
-                  className="text-white hover:underline"
+                  className="text-white hover:underline text-center"
                 >
                   +91 8220852483
                 </a>
               </div>
 
               {/* Mail Icon with Anchor Tag */}
-              <div className="flex items-center space-y-2 w-full ">
+              <div className="flex  space-y-2 w-full gap-2 align-middle">
                 <EnvelopeIcon className="h-6 w-6 my-2 text-white" />
                 <a
-                  href="mailto:muzamil112004@gmail.com"
+                  href="mailto:securehutz@gmail.com"
                   className="text-white hover:underline"
                 >
-                  muzamil112004@gmail.com
+                  securehutz@gmail.com
                 </a>
               </div>
             </div>
@@ -243,6 +243,11 @@ function ContactusPage() {
               <span>
                 Dhanalakshmi Srinivasan Engineering college Perambalur.
               </span>
+            </div>
+
+            <div className="text-white gap-3">
+              <p>Working Hours - 9am to 5pm</p>
+              <p>Saturday - sunday holidays</p>
             </div>
           </div>
         </div>
