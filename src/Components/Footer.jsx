@@ -4,6 +4,7 @@ export class Footer extends Component {
   render() {
     return (
       <footer className="py-10 bg-black text-white ">
+        <hr className="w-[90%] mx-auto py-5" />
         <section className="flex flex-col lg:flex-row justify-end gap-16 px-auto lg:px-16">
           <div className="mx-auto">
             <p className="text-violet-800 font-bold ">About Us</p>
@@ -17,7 +18,7 @@ export class Footer extends Component {
             solutions, and seamless user experiences.
             </p>
 
-            <p className="mt-5">🔒 Secure. Innovate. Elevate.🚀 </p>
+            <p className="mt-5">Secure. Innovate. Elevate. </p>
           </div>
 
 <div className="flex gap-16">
@@ -51,12 +52,12 @@ export class Footer extends Component {
           </div>
           </div>
         </section>
-        <span className="text-center">
+        {/* <span className="text-center">
           <p className="text-violet-600 my-5">
             Created by{" "}
             <span className="font-semibold text-white text-lg"> Balaji </span>
           </p>
-        </span>
+        </span> */}
 
         <hr className="w-[90%] mx-auto my-5" />
         <p className="text-center">Copyright © 2025 All Rights Reserved by Cyberweep.</p>
