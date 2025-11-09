@@ -6,16 +6,16 @@ export class Footer extends Component {
       <footer className="py-10 bg-black text-white ">
         <hr className="w-[90%] mx-auto py-5" />
         <section className="flex flex-col lg:flex-row justify-end gap-16 px-auto lg:px-16">
-          <div className="mx-auto">
-            <p className="text-violet-800 font-bold ">About Us</p>
+          <div className="">
+            <p className="text-violet-800 font-bold ml-10">About Us</p>
 
-<p className="w-[70%] text-justify">
+<p className="w-[70%] text-justify ml-10">
             SecureHutz is a next-generation cybersecurity and development company dedicated to empowering businesses and individuals with the tools to build, defend, and innovate securely. We specialize in security solutions, training, and consulting designed to bridge the gap between technology and trust.
             Driven by a mission to create a safer digital ecosystem, SecureHutz blends expertise, innovation, and education — helping you stay one step ahead in an ever-evolving cyber landscape.
 
             </p>
 
-            <p className="mt-5">Where Innovation Meets Security.</p>
+            <p className="mt-5 ml-10">Where Innovation Meets Security.</p>
           </div>
 
 <div className="flex gap-16">
