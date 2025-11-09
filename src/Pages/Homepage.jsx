@@ -27,7 +27,7 @@ function Homepage() {
                 Expert Cybersecurity Solutions & Bespoke Web/App Development for
                 Businesses Ready to Thrive.
               </p>
-              <div className="relative group mt-8">
+              <div className="relative group mt-8 ">
                 <div className="relative w-64 h-14 opacity-90 overflow-hidden rounded-xl bg-black z-10">
                   <div className="absolute z-10 -translate-x-44 group-hover:translate-x-[30rem] ease-in transistion-all duration-700 h-full w-44 bg-gradient-to-r from-gray-500 to-white/10 opacity-30 -skew-x-12"></div>
 
@@ -62,10 +62,11 @@ function Homepage() {
             </span>
           </h1>
           <section className="pl-10 w-full pt-5">
-            <span className="text-blue-400 lg:text-lg text-md font-bold">
+            <span className="text-blue-400 lg:text-xl text-md font-bold">
               About Securehutz
             </span>
-            <h1 className="lg:text-3xl text-xl font-semibold">
+          
+            <h1 className="lg:text-3xl text-xl mt-5 font-semibold">
               Securehutz Technologies
             </h1>
             <p className="text-md lg:text-xl">
