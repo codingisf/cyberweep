@@ -70,7 +70,7 @@ const ServiceModelDetails = [
 ];
 
 const ServiceCard = ({ cardTitle, cardImage, cardBody, index, onOpen }) => (
-  <div className="bg-white/10 shadow-xl rounded-lg overflow-hidden hover:shadow-2xl transform hover:-translate-y-3 transition duration-300 backdrop-blur-lg border border-white/20 w-[70%] sm:w-[80%] h-full p-6 py-10 gap-10 gap-y-10 mx-auto">
+  <div className="bg-white/10 shadow-xl rounded-lg overflow-hidden hover:shadow-2xl transform hover:-translate-y-3 transition duration-300 backdrop-blur-lg border border-white/20 lg:w-[70%] w-[90%] sm:w-[80%] h-full p-6 py-10 gap-10 gap-y-10 mx-auto">
     {cardImage && (
       <img
         src={cardImage}
