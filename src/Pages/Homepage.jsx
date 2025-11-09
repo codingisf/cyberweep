@@ -238,7 +238,7 @@ function Homepage() {
         {/* section -5 */}
         <section className="relative lg:h-[88vh] bg-cover bg-center">
           <h1 className=" lg:text-4xl text-xl font-semibold mt-10 pl-10 bg-violet-800 py-5">
-            Our Services
+            Why choose Securehutz ?
           </h1>
 
           {/* card Container */}
