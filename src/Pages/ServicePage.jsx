@@ -83,12 +83,12 @@ const ServiceCard = ({ cardTitle, cardImage, cardBody, index, onOpen }) => (
     </h3>
     <p className="text-white/80 text-justify">{cardBody}</p>
     <div className="flex justify-center mt-6">
-      <button
+      {/* <button
         onClick={() => onOpen(index)}
         className="text-violet-400 font-medium hover:text-violet-300 transition"
       >
         Read More →
-      </button>
+      </button> */}
     </div>
   </div>
 );
