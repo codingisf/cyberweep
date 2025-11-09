@@ -772,6 +772,30 @@ video {
   top: 4%;
 }
 
+.-top-2 {
+  top: -0.5rem;
+}
+
+.-right-2 {
+  right: -0.5rem;
+}
+
+.-right-7 {
+  right: -1.75rem;
+}
+
+.-top-7 {
+  top: -1.75rem;
+}
+
+.-top-9 {
+  top: -2.25rem;
+}
+
+.-right-9 {
+  right: -2.25rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -1009,6 +1033,10 @@ video {
 
 .mt-px {
   margin-top: 1px;
+}
+
+.ml-10 {
+  margin-left: 2.5rem;
 }
 
 .box-border {
