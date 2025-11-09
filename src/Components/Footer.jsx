@@ -9,16 +9,13 @@ export class Footer extends Component {
           <div className="mx-auto">
             <p className="text-violet-800 font-bold ">About Us</p>
 
-<p className="w-[70%]">
-            We are a forward-thinking tech company specializing in cybersecurity
-            training, web development, and UI/UX design. Our mission is to
-            empower individuals and businesses with secure, scalable, and
-            user-friendly digital solutions. With expertise in cybersecurity,
-            networking, and Linux, we provide hands-on training, innovative web
-            solutions, and seamless user experiences.
+<p className="w-[70%] text-justify">
+            SecureHutz is a next-generation cybersecurity and development company dedicated to empowering businesses and individuals with the tools to build, defend, and innovate securely. We specialize in security solutions, training, and consulting designed to bridge the gap between technology and trust.
+            Driven by a mission to create a safer digital ecosystem, SecureHutz blends expertise, innovation, and education — helping you stay one step ahead in an ever-evolving cyber landscape.
+
             </p>
 
-            <p className="mt-5">Secure. Innovate. Elevate. </p>
+            <p className="mt-5">Where Innovation Meets Security.</p>
           </div>
 
 <div className="flex gap-16">
