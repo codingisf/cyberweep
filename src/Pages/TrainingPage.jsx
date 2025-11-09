@@ -102,6 +102,14 @@ function TrainingPage() {
   return (
     <div className="relative w-full min-h-screen bg-cover bg-fixed bg-center text-white bg-black max-w-[100vw]">
 
+     <header
+            className="lg:h-[60vh] h-[50vh] flex justify-center items-center bg-gray-300"
+            style={{ backgroundImage: "url('/img-1.jpg')" }}
+          >
+            <h1 className="text-[2rem] lg:text-[3.5rem] text-violet-500 font-semibold">
+              Our Training
+            </h1>
+          </header>
 
     <section className="py-14 h-full flex items-center justify-center">
             <div className="container mx-auto px-4 w-[95%]">
@@ -114,7 +122,9 @@ function TrainingPage() {
           </section>
 
 
-
+<h1 className="py-5 px-auto pl-10 lg:text-3xl text-xl bg-violet-800">
+            Our Student's testimonials
+          </h1>
       <section className="relative lg:h-[88vh] bg-cover bg-center">
           {/* <section className="bg-violet-800">
             <h1 className=" lg:text-xl text-lg font-semibold pl-10">
