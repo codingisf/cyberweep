@@ -60,7 +60,7 @@ export class Footer extends Component {
         </span> */}
 
         <hr className="w-[90%] mx-auto my-5" />
-        <p className="text-center">Copyright © 2025 All Rights Reserved by Cyberweep.</p>
+        <p className="text-center">Copyright © 2025 All Rights Reserved by Securehutz.</p>
       </footer>
     );
   }
