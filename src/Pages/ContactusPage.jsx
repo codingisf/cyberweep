@@ -240,9 +240,7 @@ function ContactusPage() {
             {/* Location Icon */}
             <div className="flex items-center text-white ">
               <MapIcon className="h-6 w-6 my-2 text-white" />
-              <span>
-                Dhanalakshmi Srinivasan Engineering college Perambalur.
-              </span>
+              <span>thottiyam , Trichy , 621215.</span>
             </div>
 
             <div className="text-white gap-3">
@@ -253,12 +251,13 @@ function ContactusPage() {
         </div>
         <div className="w-full mt-10">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497759.1987864793!2d78.28834567122274!3d12.924185032621137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bab1b79b2c3fd2f%3A0x2d319ce58dfaf95b!2sDHANALAKSHMI%20SRINIVASAN%20UNIVERSITY%2C%20PERAMBALUR!5e0!3m2!1sen!2sin!4v1739770820904!5m2!1sen!2sin"
-            className="mx-auto h-[40vh] w-[70%] rounded-lg"
-            style={{ border: 0 }}
-            allowFullScreen
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3916.679292743318!2d78.33146407504483!3d10.987561989174315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTDCsDU5JzE1LjIiTiA3OMKwMjAnMDIuNSJF!5e0!3m2!1sen!2sin!4v1762702730671!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
             loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
+            referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </div>
