@@ -117,7 +117,7 @@ function Homepage() {
                       />
                     </div>
                     <h3 className="text-xl font-semibold text-white mb-4">
-                      Web Application Penetration Testing
+                      Web Application Penetration <br /> Testing
                     </h3>
                     <p className="text-white/80 text-justify">
                       Our penetration testing services are designed to uncover
@@ -171,7 +171,7 @@ function Homepage() {
                       />
                     </div>
                     <h3 className="text-xl font-semibold text-white mb-4">
-                      Secure Web Development (Front-End & Back-End)
+                      Secure Web Development <br /> (Front-End & Back-End)
                     </h3>
                     <p className="text-white/80 text-justify">
                       Security starts at the code level. Our web development
